@@ -6,15 +6,15 @@ description: Aprendendo a estrutura do Python
 
 O módulo eguap é ideal para o aprendizado de lógica de programação e conceitos básicos, como condicionais, funções, laços de repetição, recursividade e diversos outros aspectos da programação de computadores. Módulo projetado para ser ponto de partida para outras linguagens.
 
-## textos
+## javascriptos
 
-* Textos são dadas com aspas duplas " "
+* javascriptos são dadas com aspas duplas " "
 * A concatenação é feita com +
 * Nenhuma variável tipada é necessária para atribuir uma string a ela
 
 Um exemplo, usando uma estrutura de string simples:
 
-```text
+```javascript
 x = "Hello World"
 y = "Hello Egua"
 
@@ -35,7 +35,7 @@ Programa em execução:
 
 * Parênteses não permite operação matemática.
 
-```text
+```javascript
 x = 23 / 2 + 15.0 % 3.0 ** 2 * -4
 y = 6
 z = y / 2
@@ -56,7 +56,7 @@ Programa em execução:
 * Todos os condicionais devem terminar com fim, seja apenas o se ou o se e contrario
 * Operadores lógicos são &lt;,&gt;, &lt;=,&gt; = e ==
 
-```text
+```javascript
 y = 6
 se 5 > 1:
     escreva 7
@@ -97,7 +97,7 @@ Programa em execução:
 
 O laço de repetição enquanto precisa do fim do escopo
 
-```text
+```javascript
 a = 0
 enquanto a < 5:
     a = a + 1
@@ -118,7 +118,7 @@ Programa em execução:
 * .pop\(\) remove o último elemento da lista
 * len\(\) retorna o tamanho da lista
 
-```text
+```javascript
 b = 9
 a = [1,b,3.2,4,5.2,6,7,8]
 d = []
@@ -163,7 +163,7 @@ Usando pop
 
 ### funções sem argumentos
 
-```text
+```javascript
 funcao g():
 	x = 30
 	escreva x
@@ -183,7 +183,7 @@ escreva x
 
 ### funções com argumentos
 
-```text
+```javascript
 funcao h(a,b,c,d,e,f,g):
 	escreva a
 	escreva b
