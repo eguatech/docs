@@ -6,9 +6,9 @@ description: Aprendendo a estrutura do Python
 
 O módulo eguap é ideal para o aprendizado de lógica de programação e conceitos básicos, como condicionais, funções, laços de repetição, recursividade e diversos outros aspectos da programação de computadores. Módulo projetado para ser ponto de partida para outras linguagens.
 
-## javascriptos
+## textos
 
-* javascriptos são dadas com aspas duplas " "
+* textos são dadas com aspas duplas " "
 * A concatenação é feita com +
 * Nenhuma variável tipada é necessária para atribuir uma string a ela
 
