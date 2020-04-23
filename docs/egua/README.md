@@ -403,11 +403,11 @@ tente {
 }
 ```
 
-### Funções
+## funções
 
 As funções do Egua vêm em dois tipo - funções padrão e funções anonimas.
 
-#### Função padrão
+### Função padrão
 
 As funções padrões podem ser declaradas usando a palavra-chave 'funcao', um nome de função, uma lista de parâmetros entre colchete e depois um bloco para o corpo da função.
 
@@ -421,7 +421,7 @@ escreva(principal); // saídas <função principal>
 
 As funções padrão são declaradas como variáveis e também vinculadas ao escopo local como variáveis normais.
 
-#### Função anônima
+### função anônima
 
 Permite a criação de funções que não tem o nome especificado. 
 
@@ -431,7 +431,7 @@ var principal = funcao() {
 };
 ```
 
-#### Chamada de função
+### chamada de função
 
 Uma função que retorna dados como resultado. 
 
@@ -444,7 +444,7 @@ principal();
 principal(1); // parâmetro único
 ```
 
-### Retorna
+### retorno
 
 Uma função retorna valores do dado processado.
 
@@ -468,11 +468,11 @@ var dado = principal(); // Dados se tornam iguais a nulos, devido a nada retorna
 escreva(dado); // Saída nula
 ```
 
-### Parâmetro
+### parâmetro
 
 Parâmetro é uma variável declarada no cabeçalho da função e tem uso exclusivo dentro do bloco de instrução da mesma. 
 
-#### Parâmetro padrão
+#### parâmetro padrão
 
 Os parâmetros padrão podem ser declarados ao declara uma função, fornecendo um nome de variável como o seguinte:
 
@@ -502,7 +502,7 @@ principal(1); // saídas 1 e nulo
 principal(); // saídas nulo e nulo
 ```
 
-#### Parâmetro Curinga
+#### parâmetro curinga
 
 O curinga pode receber uma quantidade ilimitada de parâmetros extras, fornecendo-os em uma matriz.
 
@@ -537,7 +537,7 @@ funcao principal(a, *b) {
 principal(1);
 ```
 
-#### Parâmetros padrão
+#### parâmetros padrão
 
 Os parâmetros padrão podem ser declarados para os parâmetros padrão e curinga e são usados no lugar de 'nulo', se esse parâmetro for equivalente a 'null' devido à chamada da função, caso contrário, o parâmetro atua como normal.
 
@@ -553,7 +553,7 @@ teste("1"); // escreve "1", "val2, e "val3"
 teste('1', '2', '3', '4'); // escreve "1", "2" e "[3, 4]"
 ```
 
-### Sumário
+### sumário
 
 Tudo isso significa que podemos escrever um programa como o seguinte, que utiliza funções padrão e anônimas com parâmetros padrão e curinga.
 
