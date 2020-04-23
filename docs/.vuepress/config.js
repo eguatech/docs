@@ -10,7 +10,8 @@ module.exports = {
             {text: "egua", link: '/egua/'},
             {text: "eguap", link: '/eguap/'},
             {text: "eguac", link: '/eguac/'},
-            {text: "eguamat", link: '/eguamat/'}
+            {text: "eguamat", link: '/eguamat/'},
+            {text: "github", link: 'https://github.com/eguatech'}
         ],
         sidebar: "auto",
         logo: "/images/logo.png"
