@@ -14,5 +14,6 @@ module.exports = {
         ],
         sidebar: "auto",
         logo: "/images/logo.png"
-    }
+    },
+    base: "/docs/"
 }
