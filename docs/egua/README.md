@@ -1,0 +1,116 @@
+---
+description: Linguagem de Programação Egua
+---
+
+# egua
+
+Descrição
+
+## instalação e uso
+
+A linguagem egua pode ser executada de maneira local e online.
+
+### uso online
+
+<button onclick="location.href = 'https://egua.tech/egua';">Usar!</button>
+
+### uso local
+
+```
+em breve
+```
+
+## olá mundo
+
+```js
+escreva("Olá Mundo!");
+```
+
+## tipos de dados
+
+Os tipos de dados em egua são dinâmicos.
+
+```js
+1
+"hello"
+
+[1, "2" , 3]
+
+{
+  test: 'test',
+  test2: 1
+}
+
+nulo
+verdadeiro
+falso
+```
+
+### texto
+
+texto são sinalizados com `" "` ou `' '`.
+
+```js
+"abc";
+'abc';
+
+"abc"[0]; // a
+"abc"[-1]; // c
+```
+
+### números
+
+Números são inteiros ou flutuantes.
+
+```js
+3;
+
+8.5
+```
+
+### vetores
+
+Vetores são dados por `[]` e seus elementos são separados por `,`.
+
+```js
+[1, "2"];
+[];
+
+[1, "2"][0]; // retorna 1
+[1, 2][2]; // retorna erro por estar fora do tamanho
+
+[1, 2][1] = 3; // retorna [1, 3]
+[1, 2][2] = 3; // retorna [1, 2, 3]
+[1, 2][3] = 3; // retorna [1, 2, nulo, 3]
+```
+
+### dicionários
+
+Dicionário funciona com uma chave de identificação.
+
+```js
+{};
+{'a': 'b'};
+
+{'a': 'b'}['a']; // retorna 'b'
+
+{}['a'] = 'b'; // retorna novo dicionário {'a': 'b'}
+{'a': 1}['a'] = 2; // retorna novo dicionário {'a': 2}
+```
+
+### nulo
+
+Estrutura de dados vazia.
+
+```js
+nulo;
+```
+
+### booleanos
+
+Estrutura booleana
+
+```js
+verdadeiro;
+falso;
+```
