@@ -206,15 +206,15 @@ Os operadores têm uma ordem clara de prioridade, semelhante à matemática, ond
 - `==` e `!=`
 - `em`, `e` e `ou`
 
-## Fluxo de controle.
+## fluxo de controle.
 
 Egua vem equipado com uma gama completa de opções de controle de fluxo.
 
-### Valores reais.
+### valores reais.
 
 Integrado ao fluxo de controle de todas as linguagens são os valores reais e como os valores são comparados e avaliados, uma vez que as opções de fluxo de controle, como uma instrução "se", só será executada se a instrução for avaliada como verdade, por exemplo "se(verdade){}" enquanto só é executado devido ser uma instrução verdadeira.
 
-#### Comparação de igualdade.
+#### comparação de igualdade.
 
 Para que dois objetos sejam comparados como verdade, eles devem ser do mesmo tipo e do mesmo valor, da mesma forma que outras linguagens fortemente tipadas, como o Python. Considere os seguintes exemplos:
 
@@ -230,7 +230,7 @@ nulo == nulo; // Verdade
 
 A comparação é avaliada como "falsa" ou "verdadeira", dependendo somentos dos valores serem iguais.
 
-#### Avaliação da verdade
+#### avaliação da verdade
 
 Todos os tipos de dados, exceto "nulos"e "falsos", são avaliados com sinceridade.
 
@@ -245,7 +245,7 @@ nulo // Falso
 falso // Falso
 ```
 
-#### Palavras-chave de controle.
+#### palavras chave de controle
 
 O Egua inclui várias palavras-chave que ajudam no fluxo de controle.
 
@@ -266,7 +266,7 @@ verdadeiro ou falso; // Verdade
 'chave' em {'chave': 'valor'};
 ```
 
-### Declarações 'Se', 'Se não se' e 'Se não'. 
+### se - se não se - se não 
 
 O Egua fornece instruções 'se', 'se não se' e 'se não' para um fluxo de controle eficiente. Intruções 'se não se' e 'se não' devem ser anexadas a uma instrução if e são opicionais. Você pode fornercer apenas mais uma declaração. Cada declaração é seguida por um corpo que é executado de acordo com a condição da declaração. O corpo de uma instrução 'se' é executado se a condição for avaliada como verdadeira, caso contrário, quaisquer instruções 'se não se' anexadas serão avaliadas na ordem fornecida e se qualquer uma dessas condições avaliadas como verdadeira, seus corpos serão executados. Apenas um bloco 'se não se' pode ser executado. Se a instrução 'se' não for executada e nenhuma instrução 'se não se' executada, o bloco 'se não' será executado, se fornecido.
 
@@ -297,7 +297,7 @@ se (a == 1) {
 }
 ```
 
-### Declaração 'enquanto'.
+### enquanto
 
 As declarações 'enquanto do Egua operam de maneira semelhante à maioria das linguagens. O loop 'enquanto' leva uma condição e um corpo, com o corpo continuando a executar enquanto a condição é avaliada como verdadeira. A verificação da verdade é feita antes de cada vez que o corpo é executado, o que significa que nenhuma execução é garantida.
 
@@ -308,7 +308,7 @@ enquanto (verdade) {
 }
 ```
 
-### Declação 'para'
+### para
 
 Para declarações dentro do Egua, use 4 argumentos - um inicializador, uma condição, um passo e um corpo. Qualquer um pode ficar em branco. O inicializador é executado antes do loop 'para', a condição que decide se o corpo continua e executar, da mesma forma que um loop 'enquanto'que faz com que corpo seja executado e a etapa a ser executada após o corpo durante cada loop. A instrução 'para' pega o inicializador, a condição e a etapa entre parênteses, separados por ponto e vírgula e, em seguida, uma instrução de bloco para o corpo.
 
@@ -327,7 +327,7 @@ para (; verdade; ) {
 }
 ```
 
-### Declarações 'faca' 'enquanto'
+### faça - enquanto
 
 No Egua, a intrução 'faca' e 'enquanto' atuam de maneira semelhante à maioria dos idiomas - a palavra-chave 'faca' é declarada, seguida por um bloco para o corpo, uma palavra-chave 'enquanto' e, em seguida uma condição entre parênteses. Diferentemente das instruções 'enquanto', o teste da condição para decidir se continua a executar o corpo é feito após cade execução do corpor, o que significa que o corpo é garantido para executar pelo menos uma vez.
 
@@ -345,7 +345,7 @@ faca {
 } enquanto (i < 5);
 ```
 
-### Declarações 'caso' 'escolha' 
+### caso - escolha 
 
 As instruções 'caso' e 'escolha' no Egua são uma maneira eficiente de encadear várias instruções 'se'. A sintaxe requer um valor (que é comparado a cada caso), ramificações de caso e uma ramificação padrão opcional. No início da 'escolha, o valor é avaliado e comparado ao valor de cada ramificação de 'caso' - se os valores corresponderem, o corpo do 'caso' relevante será executado e se nenhum 'caso' for executado, o corpo padrão será executado, se fornecido.
 
@@ -375,7 +375,7 @@ escolha (2) {
 }
 ```
 
-### Declarações 'tente' e 'pegue'  
+### tente - pegue  
 
 No Egua, 'tente'e 'pegue'são usados para lidas com quaisquer erros que possam ocorrer durante a execução do código.
 Os bloco 'pegue' e 'finalmente' são opcionais. Primeiro, o bloco 'tente' é executado e se durante a execução ocorrer algum erro, se houver, o bloco 'pegue' será executado. O bloco 'tente' significa que, se ocorrer algum erro durante a execução, isso não interromperá o programa. Após a tentativa e, se fornecido, o bloco 'pegue' ser executado, ser fornecido, o bloco final é executado.
@@ -407,13 +407,13 @@ tente {
 
 As funções do Egua vêm em dois tipo - funções padrão e funções anonimas.
 
-### Função padrão
+### função padrão
 
 As funções padrões podem ser declaradas usando a palavra-chave 'funcao', um nome de função, uma lista de parâmetros entre colchete e depois um bloco para o corpo da função.
 
 ```js
 funcao principal() {
-  escreve("sim!");
+  escreva("sim!");
 }
 
 escreva(principal); // saídas <função principal>
