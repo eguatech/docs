@@ -2,7 +2,7 @@ language: node_js
 node_js:
   - lts/*
 install:
-  - yarn install # npm ci
+  - yarn install 
 script:
   - yarn docs:build
 deploy:
@@ -11,5 +11,3 @@ deploy:
   local_dir: docs/.vuepress/dist
   github_token: $GITHUB_TOKEN 
   keep_history: true
-  on:
-    branch: master
