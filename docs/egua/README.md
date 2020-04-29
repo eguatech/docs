@@ -721,7 +721,7 @@ var arquivo = import("./teste.egua");
 
 As bibliotecas padrão são capazes de oferecer funcionalidades extras na linguagem de maneira interna a ela, sem necessidade de buscar funcionalidaded externa, entretanto não são carregadas para a linguagem sem sua requisição, deixando-a mais leve.
 
-```js
+```javascript
 var tempo = importar("time");
 
 escreva(tempo.time());
