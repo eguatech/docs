@@ -580,7 +580,7 @@ Uma classe é criada com `classe`
 classe Teste {}
 ```
 
-#### instanciando uma classe
+### instanciando uma classe
 
 A instância de uma classe é criada a partir da chamada de uma classe, ou seja, criando um objeto.
 
@@ -591,7 +591,7 @@ var teste = Teste();
 escreva(test); // escreve "<Teste instância>"
 ```
 
-#### métodos
+### métodos
 
 Métodos são como funções de uma classe, porém são criados sem a palavra chave de função.
 
@@ -616,7 +616,7 @@ var teste = Teste();
 teste.testeFuncao(); // escreve "olá"
 ```
 
-#### isto
+### isto
 
 Dentro de cada instância de método existe a palavra `isto` que representa a relevância da instância. Ela é auto declarativa.
 
@@ -630,7 +630,7 @@ classe Teste {
 var teste = Teste(); // escreve "<Teste instância>"
 ```
 
-#### estado
+### estado
 
 Um estado, que nada mais é que uma variável dentro de um método, é atriubuida a ele com `isto`.
 
@@ -646,7 +646,7 @@ var teste = Teste();
 test.testeFuncao();
 ```
 
-#### construtor
+### construtor
 
 Construtor é um método padrão que é automaticamente chamdo ao instanciar a classe.
 
@@ -660,7 +660,7 @@ classe Teste {
 var teste = Teste(); // escreve "começou"
 ```
 
-#### herança
+### herança
 
 Em egua é possível criar uma classe filho a partir de uma classe pai, mantendo as suas características iniciais e permitindo a inclusão de novas categorias.
 
