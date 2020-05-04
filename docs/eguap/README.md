@@ -15,14 +15,14 @@ O módulo eguap é ideal para o aprendizado de lógica de programação e concei
 Um exemplo, usando uma estrutura de string simples:
 
 ```javascript
-x = "Hello World"
-y = "Hello Egua"
+x = "Olá Mundo"
+y = "Olá Egua"
 
-escreva x + ", or, " + y
+escreva x + ", ou, " + y
 ```
 
 Programa em execução:  
-`World, or, Hello Egua`
+`Olá Mundo, ou, Olá Egua`
 
 ## matemática
 
@@ -73,7 +73,7 @@ se x == 2:
     se y != x:
        escreva 3
     fim
-else:
+contrario:
     escreva y
 fim
 
