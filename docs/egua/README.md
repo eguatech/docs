@@ -16,6 +16,12 @@ A linguagem egua pode ser executada de maneira local e online.
 
 ### uso local
 
+#### Linux
+```bash
+npm i -g egua
+```
+
+#### Windows
 ```
 em breve
 ```
