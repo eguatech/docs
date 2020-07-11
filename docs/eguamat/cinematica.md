@@ -2,13 +2,15 @@
 
 ## Velocidade média
 Retorna o valor da velocidade média.
-```
+```bash
 vmed(distância,tempo)
 ```
 
 ## Espaço percorrido
 Retorna o espaço percorrido
-`deltas(espaço inicial, espaço final)`
+```
+deltas(espaço inicial, espaço final)`
+```
 
 ## deltat(tempo inicial, tempo final)
 Retorna o tempo percorrido
