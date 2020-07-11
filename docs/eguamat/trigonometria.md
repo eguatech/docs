@@ -1,38 +1,67 @@
 # Trigonometria
 
-## sen(x) 
-Retorna o seno de um número em radiano.
+## Seno de um número
+Retorna o seno de um número X em radiano.
+```
+sen(x)
+```
 
-## cos(x)
-Retorna o cosseno de um número em radiano.
+## Cosseno de um número
+Retorna o cosseno de um número X em radiano.
+``` 
+cos(x)
+```
 
-## tan(x) 
-Retorna a tangente de um número em radiano.
+## Tangente de um número
+Retorna a tangente de um número X em radiano.
+```
+tan(x)
+```
 
-## arcos(x)
-Retorna o arco cosseno de um número em radiano.
+## Arco cosseno de um número
+Retorna o arco cosseno de um número X em radiano.
+```
+arcos(x)
+```
 
-## arsen(x)
-Retorna o arco tangente de um número em radiano.
+## Arco seno de um número
+Retorna o arco seno de um número X em radiano.
+```
+arsen(x)
+```
 
-## artan(x)
-Retorna o arco tangente de um número em radiano.
+## Arco tangente de um número
+Retorna o arco tangente de um número X em radiano.
+```
+artan(x)
+```
 
-## exp(x)
-Retorna e^x, onde x é o argumento, e e é a Constante de Euler, a base dos logaritmos naturais.
+## Exponencial
+Retorna e^x, onde x é o argumento, e é a Constante de Euler, a base dos logaritmos naturais.
+```
+exp(x)
+```
 
-## log(x)
-Retorna o logaritmo natural(base e) de um número.
+## Logaritmo natural
+Retorna o logaritmo natural (base e) de um número X.
+```
+log(x)
+``` 
 
-## pot(x,y)
-Retorna a potenciação e radiciação.
+## Potenciação de um número base X por uma expoente Y
+Retorna a potenciação de um número base X por uma expoente Y, também podendo ser aplicada para realização de uma radiciação.
+```
+pot(x,y)
+```
 
-## aleat()
+## Número pseudo-aleatório 
 Retorna um número pseudo-aleatório no intervalo [0, 1].
+```
+aleat()
+```
 
-## raizq(x) 
-Retorna a raíz quadrada de um número.
-
-Observe que uma entrada que termina com: oculta a visualização da saída.
-
-Observe que uma entrada que começa com # é definida como texto. 
+## Raíz quadrada 
+Retorna a raíz quadrada de um número X.
+```
+raizq(x)
+```

@@ -1,58 +1,72 @@
 # Funções 1 e 2 grau
 
-## fun1(a,b)
+## Lista com valores assumidos por X 
 Retorna uma lista com valores assumidos por X em dado momento da função.
+```
+fun1(a,b)
+``` 
 
-## fun1R(a,b)
+## Valor de X que faz com que F(X) seja 0
 Retorna o valor de X que faz com que F(X) seja 0.
+```
+fun1R(a,b)
+```
 
-## linspace(Valor Inicial, Valor Final, Quantidade de elementos no vetor)
+## Números espaçados uniformemente em um intervalo especificado
 Retorna números espaçados uniformemente em um intervalo especificado.
+```
+linspace(Valor Inicial, Valor Final, Quantidade de elementos no vetor)
+```
 
-## fun2(a,b,c)
+## Gráfico da função de segundo grau
 Retorna o gráfico da função de segundo grau
+```
+fun2(a,b,c)
+```
 
-## fun2R(a,b,c)
-Retorna os valores de X que fazem com que F(X) seja 0.
+## Valores de X' e X" nos quais F(X) seja igual a 0
+Retorna os valores de X' e X" nos quais F(X) seja igual a 0.
+```
+fun2R(a,b,c)
+``` 
 
-## rand(n1,n2,e) 
+## Matriz com dimensões n1 e n2 e com números aleatórios
 Retorna uma matriz com dimensões n1 e n2 e com números aleatórios e valor esperado e.
-
-## aprox(x,z) 
+```
+rand(n1,n2,e)
+```  
+## Aproximação de um número de um vetor ou matriz
 Aproxima um número, de um vetor ou uma matriz bidimensional de x a z casas decimais.
+```
+aprox(x,z)
+```
 
-## matrizn(z) 
-Retorna uma matriz javascript dos parâmetros da função z.
+## Matriz dos parâmetros de uma função
+Retorna uma matriz dos parâmetros da função z.
+```
+ matrizn(z)
+``` 
 
-## pale(n) 
+## Vetor com comprimento n com uma caminhada aleatória pura
 Retorna um vetor com comprimento n com uma caminhada aleatória pura.
+```
+pale(n)
+```
 
-## vet(a,b) 
+## Vetor com dados de a até b
 Retorna um vetor com dados de a até b.
+```
+vet(a,b)
+```
 
-## qtd(a,b) 
+## Número de elementos b na matriz a
 Conta o número de elementos b na matriz a. Se o parâmetro b não for especificado, a contagem de a é retornada.
+```
+qtd(a,b)
+```
 
-## plot(z)
+## Gráfico de um vetor 
 Retorna um gráfico de um vetor z.
-
-## limpar()
-Retorna um espaço de trabalho limpo.
-
-## salvar(x)
-onde x é um nome de um arquivo que termina com .html que salva uma cópia do trabalho atual localmente.
-
-## carregar()
-Carrega um arquivo .html de uma sessão anteriormente salva.
-
-## matriz(z)
-Cria e exibe uma tabela a partir de um vetor ou de uma matriz bidimensional z.
-
-## matrizmult(a,b)
-Multiplica duas matrizes a e b.
-
-## matrizinv(m)
-Calcula o inverso da matriz m a partir da eliminação gaussiana.
-
-## matrizid(n)
-Retorna uma matriz de identidade com n números de linhas e colunas.
+```
+plot(z)
+```

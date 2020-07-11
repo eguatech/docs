@@ -1,39 +1,76 @@
 # Estatística
 
-## max(a)
-Retorna o valor máximo de uma matriz.
-
-## min(a)
-Retorna o valor mínimo de uma matriz.
-
-## intervalo(a)
+## Valor máximo de uma matriz
+Retorna o valor máximo de uma matriz a.
+```
+max(a)
+```
+## Valor mínimo de uma matriz
+Retorna o valor mínimo de uma matriz a.
+```
+min(a)
+```
+## Intervalo (max - min) de uma matriz
 Calcula o intervalo (max - min) de uma matriz a.
+```
+intervalo(a)
+```
 
-## mediana(a)
+## Mediana de uma matriz 
 Calcula a mediana de uma matriz a.
+```
+mediana(a)
+```
 
-## smtr(a)
+## Soma de determinada matriz
 Calcula a soma de determinada matriz a.
+```
+smtr(a)
+```
+## Média de uma matriz
+Calcula o valor média de uma matriz a.
+```
+media(a)
+```
 
-## media(a)
-
-## ve(a)
+## Média aritmética de uma matriz
 Calcula o valor esperado (média aritmética) de uma matriz a. 
+```
+ve(a)
+```
 
-## sqr(array)
-Calcula a soma dos quadrados dos resíduos (sqr) of an array.
+## Soma dos quadrados dos resíduos (sqr) de uma matriz
+Calcula a soma dos quadrados dos resíduos (sqr) de uma matriz a.
+```
+sqr(matriz)
+```
 
-## variancia(array, flag)
-Calcula a variação de uma matriz. Se flag = 0 então população. Se flag = 1 faça uma amostra.
+## Variação de uma matriz
+Calcula a variação de uma matriz. Se flag = 0 então é uma população. Se flag = 1 então é uma amostra.
+```
+variancia(matriz, flag)
+```
 
-## devpad(array, flag)
-Calcula o desvio padrão de uma matriz. Se flag = 0 então população. Se flag = 1 faça a amostra.
+## Desvio padrão de uma matriz
+Calcula o desvio padrão de uma matriz. Se flag = 0 então é uma população. Se flag = 1 então é uma amostra.
+```
+devpad(matriz, flag)
+```
 
-## covar(array1, array2)
+## Covariância de duas matrizes
 Calcula a covariância de duas matrizes.
+```
+covar(matriz1, matriz)
+```
 
-## coefvar(array)
+## Coeficiente de variação para uma matriz
 Calcula o coeficiente de variação para uma matriz.
+```
+coefvar(matriz)
+```
 
-## coefcorr(array1, array2)
+## Coeficiente de correlação de pearson para duas matrizes
 Calcula o coeficiente de correlação de pearson para duas matrizes.
+```
+coefcorr(array1, array2)
+```

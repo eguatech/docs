@@ -1,22 +1,38 @@
 # Matrizes
 
-## coluna(a,c)
+## Coluna específica c de uma matriz bidimensional
 Retorna uma coluna específica c de uma matriz bidimensional a.
-
-## linha(a,r)
-Retorna uma coluna específica c de uma matriz bidimensional a.
-
-## transposta(a)
+```
+coluna(a,c)
+```
+## Linha específica c de uma matriz bidimensional 
+Retorna uma linha específica c de uma matriz bidimensional a.
+```
+linha(a,r)
+```
+## Transposta de linhas de um vetor
 Retorna a transposta de linhas de um vetor, uma coluna de um vetor ou uma matriz bidimensional. 
+```
+transposta(a)
+```
 
-## matriz(z)
+## Criação e exibição de tabelas de um vetor ou matriz 
 Cria e exibe uma tabela a partir de um vetor ou de uma matriz bidimensional z.
-
-## matrizmult(a,b)
+```
+matriz(z)
+```
+## Multiplicação de matrizes
 Multiplica duas matrizes a e b.
-
-## matrizinv(m)
+```
+matrizmult(a,b)
+```
+## Inverso de uma matriz
 Calcula o inverso da matriz m a partir da eliminação gaussiana.
-
-## matrizid(n)
-Retorna uma matriz de identidade com n números de linhas e colunas.
+```
+matrizinv(m)
+``` 
+## Matriz de identidade 
+Retorna uma matriz de identidade com n números de linhas e colunas. 
+```
+matrizid(n)
+```
