@@ -12,7 +12,5 @@ features:
   details: Módulo de programação semelhante ao C.
 - title: Console eguamat
   details: Console de programação matemática.
-- title: Ferramenta eguafsm
-  details: Ferramenta para desenho de máquina de estados finitos.
 footer: Feito com ❤ em Belém
 ---
