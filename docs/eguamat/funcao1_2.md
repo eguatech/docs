@@ -1,4 +1,4 @@
-# Funções 1 e 2 grau
+# Função Afim e Quadrática
 
 ## Lista com valores assumidos por X 
 Retorna uma lista com valores assumidos por X em dado momento da função.
