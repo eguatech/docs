@@ -72,9 +72,9 @@ se (verdade) {
 var a = 2;
 se (a == 1) {
   escreva('correspondente 1');
-} se nao se (a == 2) {
+} senao se (a == 2) {
   escreva('correspondente 2');
-} se nao {
+} senao {
   escreva('sem valor correspondente');
 }
 
@@ -82,9 +82,9 @@ se (a == 1) {
 var a = 3;
 se (a == 1) {
   escreva('correspondente 1');
-} se nao se (a == 2) {
+} senao se (a == 2) {
   escreva('correspondente 2');
-} se nao {
+} senao {
   escreva('Sem valor correspondente');
 }
 ```

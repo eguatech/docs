@@ -11,7 +11,7 @@ Variáveis podem ter seus valores alterados sem necessidade de sinalização.
 ```js
 var a = "1";
 a = "2";
-escrevaa(a); // escreve 2
+escreva(a); // escreve 2
 ```
 
 Variáveis declaradas no escopo geral podem ser acessadas pelo escopo interno, mas do contrário não é possível.
