@@ -10,7 +10,5 @@ features:
   details: Módulo de programação semelhante ao Python.
 - title: Módulo eguac
   details: Módulo de programação semelhante ao C.
-- title: Console eguamat
-  details: Console de programação matemática.
 footer: Feito com ❤ em Belém
 ---
