@@ -5,7 +5,7 @@ actionText: Introdução →
 actionLink: /introducao/
 features:
 - title: Disponível na web
-  details: Linguagem leve para ser executada no navegador
+  details: Linguagem leve para ser executada no navegador.
 - title: Módulo eguap
   details: Módulo de programação semelhante ao Python.
 - title: Módulo eguac
