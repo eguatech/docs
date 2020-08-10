@@ -4,9 +4,12 @@ node_js:
 install:
   - yarn install 
 script:
-  - yarn docs:build
+  - yarn docs:build 
 deploy:
   provider: pages
+  skip_cleanup: true
   local_dir: docs/.vuepress/dist
   github_token: $GITHUB_TOKEN 
   keep_history: true
+  on:
+    branch: maste
