@@ -2,8 +2,8 @@ module.exports = {
     head: [
         ['link', { rel: 'icon', href: '/images/icone.png' }]
     ],
-    title: "Docs Egua",
-    description: "Documentação dos módulos, ferramentas e linguagem do Egua",
+    title: "Documentação | Linguagem Egua",
+    description: "Documentação da Linguagem do Egua",
     themeConfig: {
         nav: [
             { text: "Home", link: '/' },
