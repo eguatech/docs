@@ -7,11 +7,11 @@ module.exports = {
     themeConfig: {
         nav: [
             { text: "Home", link: '/' },
-            { text: "egua", link: '/egua/' },
-            { text: "eguap", link: '/eguap/' },
-            { text: "eguac", link: '/eguac/' },
-            { text: "eguamat", link: '/eguamat/' },
-            { text: "github", link: 'https://github.com/eguatech' }
+            { text: "Egua", link: '/egua/' },
+            { text: "EguaP", link: '/eguap/' },
+            { text: "EguaC", link: '/eguac/' },
+            { text: "EguaMAT", link: '/eguamat/' },
+            { text: "GitHub", link: 'https://github.com/eguatech' }
         ],
 
         sidebar: {
