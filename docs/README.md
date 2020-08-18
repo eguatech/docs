@@ -6,9 +6,9 @@ actionLink: /introducao/
 features:
 - title: Disponível na web
   details: Linguagem leve para ser executada no navegador.
-- title: Módulo eguap
-  details: Módulo de programação semelhante ao Python.
-- title: Módulo eguac
-  details: Módulo de programação semelhante ao C.
+- title: Atualizada
+  details: O Egua passa por constantes atualizações e melhorias em seu código aberto.
+- title: Plug and Play
+  details: É só entrar e programar, não precisar configurar nada.
 footer: Feito com ❤ em Belém
 ---
