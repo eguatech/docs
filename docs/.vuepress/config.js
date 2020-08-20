@@ -3,7 +3,7 @@ module.exports = {
         ['link', { rel: 'icon', href: '/images/icone.png' }]
     ],
     title: "Documentação | Linguagem Egua",
-    description: "Programação simples, moderna e gratuita",
+    description: "Programação simples e moderna em português",
     themeConfig: {
         nav: [
             { text: "Home", link: '/' },
