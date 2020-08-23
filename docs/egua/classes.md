@@ -53,7 +53,7 @@ Dentro de cada instância de método existe a palavra `isto` que representa a re
 ```js
 classe Teste {
   construtor() {
-    escreva(this);
+    escreva(isto);
   }
 }
 
