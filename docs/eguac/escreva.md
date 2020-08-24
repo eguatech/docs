@@ -16,6 +16,7 @@ fim
 | :--- | :--- |
 | inteiro | %d |
 | caractere | %s |
+| duplo | %f |
 
 ### Caractere
 
