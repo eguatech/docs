@@ -127,14 +127,14 @@ No Egua, a intrução 'faca' e 'enquanto' atuam de maneira semelhante à maioria
 //sim é escrito uma vez
 faca {
   escreva("sim");
-} enquanto (falso);
+} enquanto (falso)
 
 // Escreve números de 0-4
 var i = 0;
 faca {
   escreva(i);
   i = i + 1;
-} enquanto (i < 5);
+} enquanto (i < 5)
 ```
 
 ## Caso - escolha 
