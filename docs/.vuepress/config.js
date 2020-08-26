@@ -8,9 +8,8 @@ module.exports = {
         nav: [
             { text: "Home", link: '/' },
             { text: "Egua", link: '/egua/' },
-            { text: "EguaP", link: '/eguap/' },
-            { text: "EguaC", link: '/eguac/' },
             { text: "EguaMAT", link: '/eguamat/' },
+            { text: "Módulos", link: '/modulos/' },
             { text: "GitHub", link: 'https://github.com/eguatech' }
         ],
 
@@ -27,25 +26,10 @@ module.exports = {
                 'importar'
             ],
 
-            '/eguac/': [
+            '/modulos/': [
                 '',
-                'main',
-                'tipos_dados',
-                'escreva',
-                'entrada_dados',
-                'condicionais',
-                'laco_repeticao',
-                'funcao'
-            ],
-
-            '/eguap/': [
-                '',
-                'textos',
-                'matematica',
-                'condicionais',
-                'laco_repeticao',
-                'lista',
-                'funcoes'
+                'eguap',
+                'eguac'
             ],
 
             '/eguamat/': [
