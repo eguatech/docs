@@ -58,7 +58,7 @@ verdadeiro ou falso; // Verdade
 'chave' em {'chave': 'valor'};
 ```
 
-## se - se não se - se não 
+## Se - Se não se - Se não 
 
 O Egua fornece instruções 'se', 'se não se' e 'se não' para um fluxo de controle eficiente. Intruções 'se não se' e 'se não' devem ser anexadas a uma instrução if e são opicionais. Você pode fornercer apenas mais uma declaração. Cada declaração é seguida por um corpo que é executado de acordo com a condição da declaração. O corpo de uma instrução 'se' é executado se a condição for avaliada como verdadeira, caso contrário, quaisquer instruções 'se não se' anexadas serão avaliadas na ordem fornecida e se qualquer uma dessas condições avaliadas como verdadeira, seus corpos serão executados. Apenas um bloco 'se não se' pode ser executado. Se a instrução 'se' não for executada e nenhuma instrução 'se não se' executada, o bloco 'se não' será executado, se fornecido.
 

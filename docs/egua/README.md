@@ -2,6 +2,6 @@
 description: Linguagem de Programação Egua
 ---
 
-# egua
+# Egua
 
 Linguagem de programação educacional, simples e moderna.
