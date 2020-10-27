@@ -18,7 +18,7 @@ A instância de uma classe é criada a partir da chamada de uma classe, ou seja,
 classe Teste {}
 
 var teste = Teste();
-escreva(test); // escreve "<Teste instância>"
+escreva(teste); // escreve "<Teste instância>"
 ```
 
 ## Métodos
@@ -73,7 +73,7 @@ classe Teste {
 }
 
 var teste = Teste();
-test.testeFuncao();
+teste.testeFuncao();
 ```
 
 ## Construtor
