@@ -15,7 +15,7 @@ Para que dois objetos sejam comparados como verdade, eles devem ser do mesmo tip
 "1" == "1"; // Verdade
 nulo == nulo; // Verdade
 
-"1" == "2"; // Verdade
+"1" == "2"; // Falsa
 1 == 2; // Falsa
 1 == "1"; // Falsa
 ```
