@@ -23,6 +23,7 @@ module.exports = {
                 'fluxo_controle',
                 'funcao',
                 'classes',
+                'funcoes_internas',
                 'importar'
             ],
 
