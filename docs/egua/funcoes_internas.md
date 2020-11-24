@@ -10,11 +10,11 @@ var vetorNomes = ["Lucas", "Heictor", "Julio", "Brennus", "Arleson"];
 //Vetor de números
 var vetorNumeros = [1, 2, 6, 7, 3, 4];
 
-vetorNomes = organizar(vetorNomes);
+vetorNomes = ordenar(vetorNomes);
 escreva(vetorNomes);
 //saída: Arleson,Brennus,Heictor,Julio,Lucas
 
-vetorNumeros = organizar(vetorNumeros);
+vetorNumeros = ordenar(vetorNumeros);
 escreva(vetorNumeros);
 //saída: 1,2,3,4,6,7
 ```
