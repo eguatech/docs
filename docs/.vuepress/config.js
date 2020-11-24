@@ -24,7 +24,8 @@ module.exports = {
                 'funcao',
                 'classes',
                 'funcoes_internas',
-                'importar'
+                'importar',
+                'CONTRIBUTING'
             ],
 
             '/modulos/': [
