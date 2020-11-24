@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>EguaC</title>
+    <meta name="generator" content="VuePress 1.7.1">
+    
+    <meta name="description" content="">
+    
+    <link rel="preload" href="/assets/css/0.styles.631aca69.css" as="style"><link rel="preload" href="/assets/js/app.d055369c.js" as="script"><link rel="preload" href="/assets/js/2.d3b1672a.js" as="script"><link rel="preload" href="/assets/js/32.2036aafd.js" as="script"><link rel="prefetch" href="/assets/js/10.c44c0b44.js"><link rel="prefetch" href="/assets/js/11.471516c9.js"><link rel="prefetch" href="/assets/js/12.be669b27.js"><link rel="prefetch" href="/assets/js/13.61d83daf.js"><link rel="prefetch" href="/assets/js/14.afd54064.js"><link rel="prefetch" href="/assets/js/15.9d624c93.js"><link rel="prefetch" href="/assets/js/16.10c4aa43.js"><link rel="prefetch" href="/assets/js/17.ba9c098a.js"><link rel="prefetch" href="/assets/js/18.bbf08fcb.js"><link rel="prefetch" href="/assets/js/19.3a30577b.js"><link rel="prefetch" href="/assets/js/20.b17b6755.js"><link rel="prefetch" href="/assets/js/21.35317217.js"><link rel="prefetch" href="/assets/js/22.696da41b.js"><link rel="prefetch" href="/assets/js/23.6ccc31e7.js"><link rel="prefetch" href="/assets/js/24.ad214b76.js"><link rel="prefetch" href="/assets/js/25.33cd2197.js"><link rel="prefetch" href="/assets/js/26.51de5be8.js"><link rel="prefetch" href="/assets/js/27.5e3f3293.js"><link rel="prefetch" href="/assets/js/28.95a32942.js"><link rel="prefetch" href="/assets/js/29.6ead0045.js"><link rel="prefetch" href="/assets/js/3.de1732b1.js"><link rel="prefetch" href="/assets/js/30.20363c16.js"><link rel="prefetch" href="/assets/js/31.20c6b283.js"><link rel="prefetch" href="/assets/js/33.932577d9.js"><link rel="prefetch" href="/assets/js/4.ea9808ef.js"><link rel="prefetch" href="/assets/js/5.e4be80f9.js"><link rel="prefetch" href="/assets/js/6.b362999a.js"><link rel="prefetch" href="/assets/js/7.bb4fad25.js"><link rel="prefetch" href="/assets/js/8.680f3f22.js"><link rel="prefetch" href="/assets/js/9.9312c5ac.js">
+    <link rel="stylesheet" href="/assets/css/0.styles.631aca69.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container no-sidebar"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/" class="home-link router-link-active"></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <!----></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><!---->  <!----> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="eguac"><a href="#eguac" class="header-anchor">#</a> EguaC</h1> <h2 id="main"><a href="#main" class="header-anchor">#</a> Main</h2> <p>Todo programa em linguagem eguac é um conjunto de funções, uma das quais a principal é a main. A execução do programa consiste na execução da função main, que tipicamente invoca outras funções do conjunto.</p> <div class="language-C extra-class"><pre class="language-c"><code>main
+   <span class="token comment">//código aqui</span>
+   
+   retorna <span class="token number">0</span><span class="token punctuation">;</span> 
+fim
+</code></pre></div><h2 id="tipos-de-dados"><a href="#tipos-de-dados" class="header-anchor">#</a> Tipos de dados</h2> <table><thead><tr><th style="text-align:left;">Tipo</th> <th style="text-align:left;">Valores</th></tr></thead> <tbody><tr><td style="text-align:left;">caractere *</td> <td style="text-align:left;">&quot;palavra&quot;</td></tr> <tr><td style="text-align:left;">curto</td> <td style="text-align:left;">13</td></tr> <tr><td style="text-align:left;">inteiro</td> <td style="text-align:left;">37</td></tr> <tr><td style="text-align:left;">longo</td> <td style="text-align:left;">6666</td></tr> <tr><td style="text-align:left;">flutuante</td> <td style="text-align:left;">0.13</td></tr> <tr><td style="text-align:left;">duplo</td> <td style="text-align:left;">0.37</td></tr></tbody></table> <blockquote><p>Note que a variável do caractere precis ter * na frente, pois está sinalizando a alocação dinâmica de memória.</p></blockquote> <div class="language-C extra-class"><pre class="language-c"><code>main
+    caractere <span class="token operator">*</span>FR <span class="token operator">=</span> <span class="token string">&quot;palavra&quot;</span><span class="token punctuation">;</span>
+    
+    curto M1 <span class="token operator">=</span> <span class="token number">13</span><span class="token punctuation">;</span>
+    
+    inteiro M2 <span class="token operator">=</span> <span class="token number">37</span><span class="token punctuation">;</span> 
+    
+    longo M3 <span class="token operator">=</span> <span class="token number">666</span><span class="token punctuation">;</span>
+    
+    flutuante T <span class="token operator">=</span> <span class="token number">0.13</span><span class="token punctuation">;</span> 
+    
+    duplo TD <span class="token operator">=</span> <span class="token number">0.37</span><span class="token punctuation">;</span> 
+    
+    retorna <span class="token number">0</span><span class="token punctuation">;</span>
+fim
+</code></pre></div><h2 id="escreva"><a href="#escreva" class="header-anchor">#</a> Escreva</h2> <h3 id="escrita-comum"><a href="#escrita-comum" class="header-anchor">#</a> Escrita comum</h3> <div class="language-C extra-class"><pre class="language-c"><code>main
+    <span class="token function">escreva</span> <span class="token punctuation">(</span><span class="token string">&quot;Olá, Egua&quot;</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    
+    retorna <span class="token number">0</span><span class="token punctuation">;</span>
+fim
+</code></pre></div><h3 id="escrevendo-variaveis"><a href="#escrevendo-variaveis" class="header-anchor">#</a> Escrevendo variáveis</h3> <table><thead><tr><th style="text-align:left;">Tipo</th> <th style="text-align:left;">Escrita</th></tr></thead> <tbody><tr><td style="text-align:left;">inteiro</td> <td style="text-align:left;">%d</td></tr> <tr><td style="text-align:left;">caractere</td> <td style="text-align:left;">%s</td></tr> <tr><td style="text-align:left;">duplo</td> <td style="text-align:left;">%f</td></tr></tbody></table> <h3 id="caractere"><a href="#caractere" class="header-anchor">#</a> Caractere</h3> <div class="language-C extra-class"><pre class="language-c"><code>main 
+    caractere <span class="token operator">*</span>palavra <span class="token operator">=</span> <span class="token string">&quot;caractere&quot;</span><span class="token punctuation">;</span>
+    <span class="token function">escreva</span> <span class="token punctuation">(</span><span class="token string">&quot;%s&quot;</span><span class="token punctuation">,</span> palavra<span class="token punctuation">)</span><span class="token punctuation">;</span> 
+ 
+    retorna <span class="token number">0</span><span class="token punctuation">;</span> 
+fim 
+</code></pre></div><h3 id="inteiro"><a href="#inteiro" class="header-anchor">#</a> Inteiro</h3> <div class="language-C extra-class"><pre class="language-c"><code>main 
+    inteiro numero <span class="token operator">=</span> <span class="token number">10</span><span class="token punctuation">;</span>
+    <span class="token function">escreva</span> <span class="token punctuation">(</span><span class="token string">&quot;%d&quot;</span><span class="token punctuation">,</span> numero<span class="token punctuation">)</span><span class="token punctuation">;</span> 
+ 
+    retorna <span class="token number">0</span><span class="token punctuation">;</span> 
+fim 
+</code></pre></div><h3 id="caractere-e-inteiro"><a href="#caractere-e-inteiro" class="header-anchor">#</a> Caractere e Inteiro</h3> <div class="language-C extra-class"><pre class="language-c"><code>main 
+    inteiro numero <span class="token operator">=</span> <span class="token number">10</span><span class="token punctuation">;</span>
+    caractere <span class="token operator">*</span>palavra <span class="token operator">=</span> <span class="token string">&quot;Número: &quot;</span>
+    <span class="token function">escreva</span> <span class="token punctuation">(</span><span class="token string">&quot;%s %d&quot;</span><span class="token punctuation">,</span> palavra<span class="token punctuation">,</span> numero<span class="token punctuation">)</span><span class="token punctuation">;</span> 
+ 
+    retorna <span class="token number">0</span><span class="token punctuation">;</span> 
+fim 
+</code></pre></div><h2 id="entrada-de-dados"><a href="#entrada-de-dados" class="header-anchor">#</a> Entrada de dados</h2> <p>O valor que será a entrada do programa deve ser escrito no quadro de &quot;Entrada&quot; da IDE. Caso haja mais de um valor de entrada, basta separar os valores com espaço, que eles serão lidos na ordem posta.</p> <blockquote><p>O eguac ainda não suporta entrada de dados de string (caractere), portanto, apenas dados do tipo numérico são aceitos.</p></blockquote> <table><thead><tr><th style="text-align:left;">Tipo</th> <th style="text-align:left;">Entrada</th></tr></thead> <tbody><tr><td style="text-align:left;">inteiro</td> <td style="text-align:left;">%d</td></tr></tbody></table> <div class="language-C extra-class"><pre class="language-c"><code>main
+    inteiro valor_inteiro<span class="token punctuation">;</span>
+    <span class="token function">leia</span> <span class="token punctuation">(</span><span class="token string">&quot;%d&quot;</span><span class="token punctuation">,</span> <span class="token operator">&amp;</span>valor_inteiro<span class="token punctuation">)</span><span class="token punctuation">;</span>
+    
+    <span class="token function">escreva</span><span class="token punctuation">(</span><span class="token string">&quot;%d&quot;</span><span class="token punctuation">,</span> valor_inteiro<span class="token punctuation">)</span><span class="token punctuation">;</span>
+    
+    retorna <span class="token number">0</span><span class="token punctuation">;</span>
+fim
+</code></pre></div><p>Para ler o número é necessário por &amp; na frente da variável, pois isso indica a atribuição do valor ao conteúdo daquel variável.</p> <p>#Condicionais</p> <blockquote><p>Todas as estruturas condicionais precisar ter seu escopo fechado com &quot;fim&quot;.</p></blockquote> <h2 id="se"><a href="#se" class="header-anchor">#</a> Se</h2> <div class="language-C extra-class"><pre class="language-c"><code>main
+    <span class="token function">se</span> <span class="token punctuation">(</span><span class="token number">3</span> <span class="token operator">&gt;</span> <span class="token number">2</span><span class="token punctuation">)</span>
+        <span class="token function">escreva</span><span class="token punctuation">(</span><span class="token string">&quot;3 é maior que 2&quot;</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    fim
+    
+    retorna <span class="token number">0</span><span class="token punctuation">;</span>
+fim
+</code></pre></div><h2 id="se-contrario"><a href="#se-contrario" class="header-anchor">#</a> Se - contrario</h2> <div class="language-C extra-class"><pre class="language-c"><code>main
+    flutuante X <span class="token operator">=</span> <span class="token number">1.5</span><span class="token punctuation">;</span>
+    
+    <span class="token function">se</span> <span class="token punctuation">(</span>X <span class="token operator">&gt;</span> <span class="token number">2</span><span class="token punctuation">)</span>
+       <span class="token function">escreva</span><span class="token punctuation">(</span><span class="token string">&quot;X é maior que 2&quot;</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    contrario
+       <span class="token function">escreva</span><span class="token punctuation">(</span><span class="token string">&quot;X não é maior que 2&quot;</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    fim
+    
+    retorna <span class="token number">0</span><span class="token punctuation">;</span>
+fim
+</code></pre></div><h2 id="se-caso-contrario"><a href="#se-caso-contrario" class="header-anchor">#</a> Se - caso - contrário</h2> <div class="language-C extra-class"><pre class="language-c"><code>main
+    flutuante X <span class="token operator">=</span> <span class="token number">1.5</span><span class="token punctuation">;</span>
+    
+    <span class="token function">se</span> <span class="token punctuation">(</span>X <span class="token operator">&gt;</span> <span class="token number">2</span><span class="token punctuation">)</span>
+       <span class="token function">escreva</span><span class="token punctuation">(</span><span class="token string">&quot;X é maior que 2&quot;</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token function">caso</span> <span class="token punctuation">(</span>X <span class="token operator">&lt;</span> <span class="token number">2</span><span class="token punctuation">)</span>
+       <span class="token function">escreva</span><span class="token punctuation">(</span><span class="token string">&quot;X é menor que 2&quot;</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    contrario
+       <span class="token function">escreva</span><span class="token punctuation">(</span><span class="token string">&quot;X é igual que 2&quot;</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    fim
+    
+    retorna <span class="token number">0</span><span class="token punctuation">;</span>
+fim
+</code></pre></div><h2 id="lacos-de-repeticao"><a href="#lacos-de-repeticao" class="header-anchor">#</a> Laços de repetição</h2> <h3 id="enquanto"><a href="#enquanto" class="header-anchor">#</a> Enquanto</h3> <p>O comando de repetição enquanto permite repetir instruções enquanto uma condição for verdadeira. Ou seja, quando não se sabe o número de vezes que algo vai ocorrer, como a entrada numérica de um usuário, por exemplo.</p> <p>Para utilizar o comando corretamente você precisa:</p> <ul><li>inicializar as variáveis de controle antes do comando;</li> <li>criar uma condição que usa a variável de controle e se mantenha verdadeira pelo número correto de iterações;</li> <li>modificar a variável de controle para garantir a terminação;</li></ul> <blockquote><p>Note que caso a vareável utilizada não tenha função de terminação, o programa não haverá termino, sendo assim a IDE irá retornar um erro, impedindo a execução do programa.</p></blockquote> <div class="language-C extra-class"><pre class="language-c"><code>main
+    inteiro X <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span>
+    
+    <span class="token function">enquanto</span> <span class="token punctuation">(</span>X <span class="token operator">&lt;</span> <span class="token number">2</span><span class="token punctuation">)</span>
+       <span class="token function">escreva</span><span class="token punctuation">(</span><span class="token string">&quot;olá\n&quot;</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+       X<span class="token operator">++</span><span class="token punctuation">;</span>
+    fim
+    
+    retorna <span class="token number">0</span><span class="token punctuation">;</span>
+fim
+</code></pre></div><h3 id="para"><a href="#para" class="header-anchor">#</a> Para</h3> <p>O laço muito útil quando se sabe de antemão quantas vezes a repetição deverá ser executada.</p> <p>Este laço utiliza uma variável para controlar a contagem do laço, bem como seu incremento (controle da variável).</p> <p>Trata-se de um comando bem sim, já que o próprio comando faz a inicialização, incremento e encerramento do laço.</p> <p>Estrutura: para (valor_inicial, condição_final, incremento)</p> <div class="language-C extra-class"><pre class="language-c"><code>main
+    inteiro M<span class="token punctuation">;</span>
+    
+    <span class="token function">para</span> <span class="token punctuation">(</span>M <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span> M <span class="token operator">&lt;</span> <span class="token number">5</span><span class="token punctuation">;</span> M<span class="token operator">++</span><span class="token punctuation">)</span>
+       <span class="token function">escreva</span> <span class="token punctuation">(</span><span class="token string">&quot;%d&quot;</span><span class="token punctuation">,</span> M<span class="token punctuation">)</span><span class="token punctuation">;</span>
+    fim
+    
+    retorna <span class="token number">0</span><span class="token punctuation">;</span>
+fim
+</code></pre></div><p>Há também as funções de <code>pausa</code> e de <code>continua</code> .</p> <p>pausa: é usado quando se quer que o programa pare numa determinada condição.</p> <p>continua: é usado quando se quer que o programa pule uma determinada ação em um dos laços.</p> <div class="language-C extra-class"><pre class="language-c"><code>main
+    inteiro M<span class="token punctuation">;</span>
+    
+    <span class="token function">para</span> <span class="token punctuation">(</span>M <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span> M <span class="token operator">&lt;</span> <span class="token number">10</span><span class="token punctuation">;</span> M<span class="token operator">++</span><span class="token punctuation">)</span>
+        
+        <span class="token function">se</span> <span class="token punctuation">(</span>M <span class="token operator">==</span> <span class="token number">3</span><span class="token punctuation">)</span>
+            continua<span class="token punctuation">;</span>
+        fim
+        
+        <span class="token function">se</span> <span class="token punctuation">(</span>M <span class="token operator">==</span> <span class="token number">9</span><span class="token punctuation">)</span>
+            pausa<span class="token punctuation">;</span>
+        fim
+        
+        <span class="token function">escreva</span><span class="token punctuation">(</span><span class="token string">&quot;%d&quot;</span><span class="token punctuation">,</span> M<span class="token punctuation">)</span><span class="token punctuation">;</span>
+    fim
+    
+    retorna <span class="token number">0</span><span class="token punctuation">;</span>
+fim
+</code></pre></div><p>O resultado desse programa será <code>01245678</code>.</p> <p>Note que o programa pulou a escrita do número 3 e parou a execução quando a variável chegou em 9.</p> <h2 id="funcoes"><a href="#funcoes" class="header-anchor">#</a> Funções</h2> <p>Ema função pode ser vista como um conjunto de comandos que realiza uma tarefa específica. Em outras palavras, pode-se dizer que é um pequeno &quot;programa&quot; dentro do programa.</p> <p>Em eguac a escrita de uma função se dá:<br> <code>funcao(tipo_retorno NOMEFUNC(tipo PARAM1, tipo PARAM2))</code></p> <div class="language-C extra-class"><pre class="language-c"><code><span class="token function">funcao</span> <span class="token punctuation">(</span>inteiro <span class="token function">soma</span><span class="token punctuation">(</span>inteiro a<span class="token punctuation">,</span> inteiro b<span class="token punctuation">)</span><span class="token punctuation">)</span>
+   inteiro resultado <span class="token operator">=</span> a <span class="token operator">+</span> b<span class="token punctuation">;</span>
+   
+   retorna resultado<span class="token punctuation">;</span>
+fim
+ 
+main 
+    inteiro a <span class="token operator">=</span> <span class="token number">10</span><span class="token punctuation">;</span>
+    inteiro b <span class="token operator">=</span> <span class="token number">20</span><span class="token punctuation">;</span>
+    inteiro somatorio<span class="token punctuation">;</span>
+    
+    somatorio <span class="token operator">=</span> <span class="token function">soma</span><span class="token punctuation">(</span>a<span class="token punctuation">,</span> b<span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token function">escreva</span><span class="token punctuation">(</span><span class="token string">&quot;%d&quot;</span><span class="token punctuation">,</span> somatorio<span class="token punctuation">)</span><span class="token punctuation">;</span>
+ 
+    retorna <span class="token number">0</span><span class="token punctuation">;</span> 
+fim 
+</code></pre></div><p>Neste exemplo cria-se uma função chamada soma que terá um retorno do tipo inteiro e que possui dois parâmetros do tipo inteiro. Logo em seguida, no escopo do main, chama-se a função e atribui seu retorno, que é inteiro, à variável somatório, para que possa ser escrita na tela.</p></div> <footer class="page-edit"><!----> <!----></footer> <!----> </main></div><div class="global-ui"></div></div>
+    <script src="/assets/js/app.d055369c.js" defer></script><script src="/assets/js/2.d3b1672a.js" defer></script><script src="/assets/js/32.2036aafd.js" defer></script>
+  </body>
+</html>

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Tipos de dados</title>
+    <meta name="generator" content="VuePress 1.7.1">
+    
+    <meta name="description" content="">
+    
+    <link rel="preload" href="/assets/css/0.styles.631aca69.css" as="style"><link rel="preload" href="/assets/js/app.d055369c.js" as="script"><link rel="preload" href="/assets/js/2.d3b1672a.js" as="script"><link rel="preload" href="/assets/js/17.ba9c098a.js" as="script"><link rel="prefetch" href="/assets/js/10.c44c0b44.js"><link rel="prefetch" href="/assets/js/11.471516c9.js"><link rel="prefetch" href="/assets/js/12.be669b27.js"><link rel="prefetch" href="/assets/js/13.61d83daf.js"><link rel="prefetch" href="/assets/js/14.afd54064.js"><link rel="prefetch" href="/assets/js/15.9d624c93.js"><link rel="prefetch" href="/assets/js/16.10c4aa43.js"><link rel="prefetch" href="/assets/js/18.bbf08fcb.js"><link rel="prefetch" href="/assets/js/19.3a30577b.js"><link rel="prefetch" href="/assets/js/20.b17b6755.js"><link rel="prefetch" href="/assets/js/21.35317217.js"><link rel="prefetch" href="/assets/js/22.696da41b.js"><link rel="prefetch" href="/assets/js/23.6ccc31e7.js"><link rel="prefetch" href="/assets/js/24.ad214b76.js"><link rel="prefetch" href="/assets/js/25.33cd2197.js"><link rel="prefetch" href="/assets/js/26.51de5be8.js"><link rel="prefetch" href="/assets/js/27.5e3f3293.js"><link rel="prefetch" href="/assets/js/28.95a32942.js"><link rel="prefetch" href="/assets/js/29.6ead0045.js"><link rel="prefetch" href="/assets/js/3.de1732b1.js"><link rel="prefetch" href="/assets/js/30.20363c16.js"><link rel="prefetch" href="/assets/js/31.20c6b283.js"><link rel="prefetch" href="/assets/js/32.2036aafd.js"><link rel="prefetch" href="/assets/js/33.932577d9.js"><link rel="prefetch" href="/assets/js/4.ea9808ef.js"><link rel="prefetch" href="/assets/js/5.e4be80f9.js"><link rel="prefetch" href="/assets/js/6.b362999a.js"><link rel="prefetch" href="/assets/js/7.bb4fad25.js"><link rel="prefetch" href="/assets/js/8.680f3f22.js"><link rel="prefetch" href="/assets/js/9.9312c5ac.js">
+    <link rel="stylesheet" href="/assets/css/0.styles.631aca69.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container no-sidebar"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/" class="home-link router-link-active"></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <!----></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><!---->  <!----> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="tipos-de-dados"><a href="#tipos-de-dados" class="header-anchor">#</a> Tipos de dados</h1> <p>Os tipos de dados em egua são dinâmicos.</p> <div class="language-js extra-class"><pre class="language-js"><code><span class="token number">1</span>
+<span class="token string">&quot;hello&quot;</span>
+
+<span class="token punctuation">[</span><span class="token number">1</span><span class="token punctuation">,</span> <span class="token string">&quot;2&quot;</span> <span class="token punctuation">,</span> <span class="token number">3</span><span class="token punctuation">]</span>
+
+<span class="token punctuation">{</span>
+  test<span class="token operator">:</span> <span class="token string">'test'</span><span class="token punctuation">,</span>
+  test2<span class="token operator">:</span> <span class="token number">1</span>
+<span class="token punctuation">}</span>
+
+nulo
+verdadeiro
+falso
+</code></pre></div><h2 id="texto"><a href="#texto" class="header-anchor">#</a> Texto</h2> <p>texto são sinalizados com <code>&quot; &quot;</code> ou <code>' '</code>.</p> <div class="language-js extra-class"><pre class="language-js"><code><span class="token string">&quot;abc&quot;</span><span class="token punctuation">;</span>
+<span class="token string">'abc'</span><span class="token punctuation">;</span>
+
+<span class="token string">&quot;abc&quot;</span><span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">]</span><span class="token punctuation">;</span> <span class="token comment">// a</span>
+<span class="token string">&quot;abc&quot;</span><span class="token punctuation">[</span><span class="token operator">-</span><span class="token number">1</span><span class="token punctuation">]</span><span class="token punctuation">;</span> <span class="token comment">// c</span>
+</code></pre></div><h2 id="numeros"><a href="#numeros" class="header-anchor">#</a> Números</h2> <p>Números são inteiros ou flutuantes.</p> <div class="language-js extra-class"><pre class="language-js"><code><span class="token number">3</span><span class="token punctuation">;</span>
+
+<span class="token number">8.5</span>
+</code></pre></div><h2 id="vetores"><a href="#vetores" class="header-anchor">#</a> Vetores</h2> <p>Vetores são dados por <code>[]</code> e seus elementos são separados por <code>,</code>.</p> <div class="language-js extra-class"><pre class="language-js"><code><span class="token punctuation">[</span><span class="token number">1</span><span class="token punctuation">,</span> <span class="token string">&quot;2&quot;</span><span class="token punctuation">]</span><span class="token punctuation">;</span>
+<span class="token punctuation">[</span><span class="token punctuation">]</span><span class="token punctuation">;</span>
+
+<span class="token punctuation">[</span><span class="token number">1</span><span class="token punctuation">,</span> <span class="token string">&quot;2&quot;</span><span class="token punctuation">]</span><span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">]</span><span class="token punctuation">;</span> <span class="token comment">// retorna 1</span>
+<span class="token punctuation">[</span><span class="token number">1</span><span class="token punctuation">,</span> <span class="token number">2</span><span class="token punctuation">]</span><span class="token punctuation">[</span><span class="token number">2</span><span class="token punctuation">]</span><span class="token punctuation">;</span> <span class="token comment">// retorna erro por estar fora do tamanho</span>
+
+<span class="token punctuation">[</span><span class="token number">1</span><span class="token punctuation">,</span> <span class="token number">2</span><span class="token punctuation">]</span><span class="token punctuation">[</span><span class="token number">1</span><span class="token punctuation">]</span> <span class="token operator">=</span> <span class="token number">3</span><span class="token punctuation">;</span> <span class="token comment">// retorna [1, 3]</span>
+<span class="token punctuation">[</span><span class="token number">1</span><span class="token punctuation">,</span> <span class="token number">2</span><span class="token punctuation">]</span><span class="token punctuation">[</span><span class="token number">2</span><span class="token punctuation">]</span> <span class="token operator">=</span> <span class="token number">3</span><span class="token punctuation">;</span> <span class="token comment">// retorna [1, 2, 3]</span>
+<span class="token punctuation">[</span><span class="token number">1</span><span class="token punctuation">,</span> <span class="token number">2</span><span class="token punctuation">]</span><span class="token punctuation">[</span><span class="token number">3</span><span class="token punctuation">]</span> <span class="token operator">=</span> <span class="token number">3</span><span class="token punctuation">;</span> <span class="token comment">// retorna [1, 2, nulo, 3]</span>
+</code></pre></div><h2 id="dicionarios"><a href="#dicionarios" class="header-anchor">#</a> Dicionários</h2> <p>Dicionário funciona com uma chave de identificação.</p> <div class="language-js extra-class"><pre class="language-js"><code><span class="token punctuation">{</span><span class="token punctuation">}</span><span class="token punctuation">;</span>
+<span class="token punctuation">{</span><span class="token string">'a'</span><span class="token operator">:</span> <span class="token string">'b'</span><span class="token punctuation">}</span><span class="token punctuation">;</span>
+
+<span class="token punctuation">{</span><span class="token string">'a'</span><span class="token operator">:</span> <span class="token string">'b'</span><span class="token punctuation">}</span><span class="token punctuation">[</span><span class="token string">'a'</span><span class="token punctuation">]</span><span class="token punctuation">;</span> <span class="token comment">// retorna 'b'</span>
+
+<span class="token punctuation">{</span><span class="token punctuation">}</span><span class="token punctuation">[</span><span class="token string">'a'</span><span class="token punctuation">]</span> <span class="token operator">=</span> <span class="token string">'b'</span><span class="token punctuation">;</span> <span class="token comment">// retorna novo dicionário {'a': 'b'}</span>
+<span class="token punctuation">{</span><span class="token string">'a'</span><span class="token operator">:</span> <span class="token number">1</span><span class="token punctuation">}</span><span class="token punctuation">[</span><span class="token string">'a'</span><span class="token punctuation">]</span> <span class="token operator">=</span> <span class="token number">2</span><span class="token punctuation">;</span> <span class="token comment">// retorna novo dicionário {'a': 2}</span>
+</code></pre></div><h2 id="nulo"><a href="#nulo" class="header-anchor">#</a> Nulo</h2> <p>Estrutura de dados vazia.</p> <div class="language-js extra-class"><pre class="language-js"><code>nulo<span class="token punctuation">;</span>
+</code></pre></div><h2 id="booleanos"><a href="#booleanos" class="header-anchor">#</a> Booleanos</h2> <p>Estrutura booleana</p> <div class="language-js extra-class"><pre class="language-js"><code>verdadeiro<span class="token punctuation">;</span>
+falso<span class="token punctuation">;</span>
+</code></pre></div></div> <footer class="page-edit"><!----> <!----></footer> <!----> </main></div><div class="global-ui"></div></div>
+    <script src="/assets/js/app.d055369c.js" defer></script><script src="/assets/js/2.d3b1672a.js" defer></script><script src="/assets/js/17.ba9c098a.js" defer></script>
+  </body>
+</html>
