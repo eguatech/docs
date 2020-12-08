@@ -1,33 +1,14 @@
 # Tipos de dados
-
-Os tipos de dados em egua são dinâmicos.
-
-```js
-1
-"hello"
-
-[1, "2" , 3]
-
-{
-  test: 'test',
-  test2: 1
-}
-
-nulo
-verdadeiro
-falso
-```
-
 ## Texto
 
 texto são sinalizados com `" "` ou `' '`.
 
 ```js
-"abc";
-'abc';
+var texto = "abc";
+var texto2 = 'abc';
 
-"abc"[0]; // a
-"abc"[-1]; // c
+escreva("abc"[0]); // a
+escreva(texto[-1]); // c
 ```
 
 ## Números
@@ -35,9 +16,9 @@ texto são sinalizados com `" "` ou `' '`.
 Números são inteiros ou flutuantes.
 
 ```js
-3;
+var numeroInteiro = 3;
 
-8.5
+var numeroFlutuante = 8.5;
 ```
 
 ## Vetores
@@ -45,15 +26,23 @@ Números são inteiros ou flutuantes.
 Vetores são dados por `[]` e seus elementos são separados por `,`.
 
 ```js
-[1, "2"];
-[];
+var vetor = [1, "2"];
+var vetorVazio = [];
 
-[1, "2"][0]; // retorna 1
-[1, 2][2]; // retorna erro por estar fora do tamanho
+escreva([1, "2"][0]); // retorna 1
+escreva(vetor[2]); // retorna erro por estar fora do tamanho
 
-[1, 2][1] = 3; // retorna [1, 3]
-[1, 2][2] = 3; // retorna [1, 2, 3]
-[1, 2][3] = 3; // retorna [1, 2, nulo, 3]
+var vetor = [1, "2"];
+vetor[1] = 3; 
+escreva(vetor); // retorna [1, 3]
+
+var vetor = [1, "2"];
+vetor[2] = 3; 
+escreva(vetor); // retorna [1, 2, 3]
+
+var vetor = [1, "2"];
+vetor[3] = 3; 
+escreva(vetor); // retorna [1, 2, nulo, 3]
 ```
 
 ## Dicionários
@@ -75,7 +64,10 @@ Dicionário funciona com uma chave de identificação.
 Estrutura de dados vazia.
 
 ```js
-nulo;
+var variavel;
+escreva(variavel); // retorna "nulo" pois não foi possui valores
+
+var variavelNula = nulo; // também pode ser atribuído explicitamente o valor "nulo"
 ```
 
 ## Booleanos
@@ -83,6 +75,6 @@ nulo;
 Estrutura booleana
 
 ```js
-verdadeiro;
-falso;
+var variavel1 = verdadeiro;
+var variavel0 = falso;
 ```
