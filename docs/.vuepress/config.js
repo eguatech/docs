@@ -41,7 +41,8 @@ module.exports = {
                 'matrizes',
                 'trigonometria',
                 'cinematica',
-                'controle'
+                'controle',
+                'CONTRIBUTING'
             ],
 
             '/introducao/':[
