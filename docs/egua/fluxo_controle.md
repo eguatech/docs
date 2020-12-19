@@ -119,19 +119,19 @@ para (; verdade; ) {
 }
 ```
 
-## Faça - enquanto
+## Fazer - enquanto
 
-No Egua, a intrução 'faca' e 'enquanto' atuam de maneira semelhante à maioria dos idiomas - a palavra-chave 'faca' é declarada, seguida por um bloco para o corpo, uma palavra-chave 'enquanto' e, em seguida uma condição entre parênteses. Diferentemente das instruções 'enquanto', o teste da condição para decidir se continua a executar o corpo é feito após cade execução do corpor, o que significa que o corpo é garantido para executar pelo menos uma vez.
+No Egua, a intrução 'fazer' e 'enquanto' atuam de maneira semelhante à maioria dos idiomas - a palavra-chave 'fazer' é declarada, seguida por um bloco para o corpo, uma palavra-chave 'enquanto' e, em seguida uma condição entre parênteses. Diferentemente das instruções 'enquanto', o teste da condição para decidir se continua a executar o corpo é feito após cade execução do corpor, o que significa que o corpo é garantido para executar pelo menos uma vez.
 
 ```js
 //sim é escrito uma vez
-faca {
+fazer {
   escreva("sim");
 } enquanto (falso)
 
 // Escreve números de 0-4
 var i = 0;
-faca {
+fazer {
   escreva(i);
   i = i + 1;
 } enquanto (i < 5)

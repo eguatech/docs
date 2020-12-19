@@ -7,8 +7,9 @@ module.exports = {
     themeConfig: {
         nav: [
             { text: "Home", link: '/' },
+            { text: "Introdução", link: '/introducao/'},
             { text: "Egua", link: '/egua/' },
-            { text: "EguaMAT", link: '/eguamat/' },
+            { text: "EguaMat", link: '/eguamat/' },
             { text: "Módulos", link: '/modulos/' },
             { text: "GitHub", link: 'https://github.com/eguatech' }
         ],
@@ -16,7 +17,6 @@ module.exports = {
         sidebar: {
             '/egua/': [
                 '',
-                'uso',
                 'tipos_dados',
                 'variaveis',
                 'operadores',
@@ -36,6 +36,7 @@ module.exports = {
 
             '/eguamat/': [
                 '',
+                'uteis',
                 'funcao1_2',
                 'estatistica',
                 'matrizes',
@@ -49,7 +50,9 @@ module.exports = {
                 '',
                 'IDEgua',
                 'modulos',
-                'contribuindo'
+                'contribuindo',
+                'CONTRIBUTING',
+                'apoio'
             ]
 
         },
