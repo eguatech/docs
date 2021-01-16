@@ -1,4 +1,4 @@
-# Fluxo de controle.
+# Fluxo de controle
 
 Egua vem equipado com uma gama completa de opções de controle de fluxo.
 
