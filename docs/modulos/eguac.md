@@ -1,6 +1,6 @@
 # EguaC
 ## Main
-Todo programa em linguagem eguac é um conjunto de funções, uma das quais a principal é a main. A execução do programa consiste na execução da função main, que tipicamente invoca outras funções do conjunto.
+Todo programa em linguagem EguaC é um conjunto de funções, uma das quais a principal é a `main()`. A execução do programa consiste na execução da função `main()`, que tipicamente invoca outras funções do conjunto.
 
 ```C
 main
@@ -94,9 +94,9 @@ fim
 ```
 
 ## Entrada de dados
-O valor que será a entrada do programa deve ser escrito no quadro de "Entrada" da IDE. Caso haja mais de um valor de entrada, basta separar os valores com espaço, que eles serão lidos na ordem posta.
+O valor que será a entrada do programa deve ser escrito no quadro de "Entrada" da IDE. Caso haja mais de um valor de entrada, basta separar os valores com espaço, que eles serão lidos na ordem disposta.
 
-> O eguac ainda não suporta entrada de dados de string \(caractere\), portanto, apenas dados do tipo numérico são aceitos.
+> O EguaC ainda não suporta entrada de dados de string \(caractere\), portanto, apenas dados do tipo numérico são aceitos.
 
 | Tipo | Entrada |
 | :--- | :--- |
@@ -113,7 +113,7 @@ main
 fim
 ```
 
-Para ler o número é necessário por & na frente da variável, pois isso indica a atribuição do valor ao conteúdo daquel variável.
+Para ler o número é necessário adicionar & na frente da variável, pois isso indica a atribuição do valor ao conteúdo daquela variável.
 
 #Condicionais
 > Todas as estruturas condicionais precisar ter seu escopo fechado com "fim".
@@ -166,7 +166,7 @@ fim
 
 ## Laços de repetição
 ### Enquanto
-O comando de repetição enquanto permite repetir instruções enquanto uma condição for verdadeira. Ou seja, quando não se sabe o número de vezes que algo vai ocorrer, como a entrada numérica de um usuário, por exemplo.
+O comando de repetição `enquanto` permite repetir instruções enquanto uma condição for verdadeira. Ou seja, quando não se sabe o número de vezes que algo vai ocorrer, como a entrada numérica de um usuário, por exemplo.
 
 Para utilizar o comando corretamente você precisa: 
 
@@ -174,7 +174,7 @@ Para utilizar o comando corretamente você precisa:
 * criar uma condição que usa a variável de controle e se mantenha verdadeira pelo número correto de iterações; 
 * modificar a variável de controle para garantir a terminação; 
 
-> Note que caso a vareável utilizada não tenha função de terminação, o programa não haverá termino, sendo assim a IDE irá retornar um erro, impedindo a execução do programa.
+> Note que caso a variável utilizada não tenha função de terminação, o programa não haverá término, sendo assim a IDE irá retornar um erro, impedindo a execução do programa.
 
 ```C
 main
@@ -191,11 +191,11 @@ fim
 
 ### Para
 
-O laço muito útil quando se sabe de antemão quantas vezes a repetição deverá ser executada.
+Laço muito útil quando se sabe de antemão quantas vezes a repetição deverá ser executada.
 
 Este laço utiliza uma variável para controlar a contagem do laço, bem como seu incremento \(controle da variável\).
 
-Trata-se de um comando bem sim, já que o próprio comando faz a inicialização, incremento e encerramento do laço.
+Trata-se de um comando bem sucinto, já que o próprio comando faz a inicialização, incremento e encerramento do laço.
 
 Estrutura: para \(valor\_inicial, condição\_final, incremento\)
 
@@ -211,11 +211,11 @@ main
 fim
 ```
 
-Há também as funções de `pausa` e de `continua` .
+Há também as funções de `pausa` e de `continua`.
 
-pausa: é usado quando se quer que o programa pare numa determinada condição.
+`pausa`: é usado quando se quer que o programa pare numa determinada condição.
 
-continua: é usado quando se quer que o programa pule uma determinada ação em um dos laços.
+`continua`: é usado quando se quer que o programa pule uma determinada ação em um dos laços.
 
 ```C
 main
@@ -243,9 +243,10 @@ O resultado desse programa será `01245678`.
 Note que o programa pulou a escrita do número 3 e parou a execução quando a variável chegou em 9.
 
 ## Funções
-Ema função pode ser vista como um conjunto de comandos que realiza uma tarefa específica. Em outras palavras, pode-se dizer que é um pequeno "programa" dentro do programa.
+Uma função pode ser vista como um conjunto de comandos que realiza uma tarefa específica. Em outras palavras, pode-se dizer que é um pequeno "programa" dentro do programa.
 
-Em eguac a escrita de uma função se dá:  
+Em EguaC a escrita de uma função se dá através do seguinte modelo:
+
 `funcao(tipo_retorno NOMEFUNC(tipo PARAM1, tipo PARAM2))`
 
 ```C
@@ -267,4 +268,4 @@ main
 fim 
 ```
 
-Neste exemplo cria-se uma função chamada soma que terá um retorno do tipo inteiro e que possui dois parâmetros do tipo inteiro. Logo em seguida, no escopo do main, chama-se a função e atribui seu retorno, que é inteiro, à variável somatório, para que possa ser escrita na tela.
+Neste exemplo cria-se uma função chamada `soma` que terá um retorno do tipo inteiro e que possui dois parâmetros do tipo inteiro. Logo em seguida, no escopo da função `main`, chama-se a função e atribui seu retorno, que é inteiro, à variável `somatorio`, para que possa ser escrita na tela.

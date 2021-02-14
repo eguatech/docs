@@ -1,6 +1,6 @@
 # Classes
 
-A linguagem egua suporta orientação a objetos nativamente, seja no ambiente web ou no ambiente local.
+A linguagem Egua suporta orientação a objetos nativamente, seja no ambiente web ou no ambiente local.
 
 ## Criando uma classe
 
@@ -48,7 +48,7 @@ teste.testeFuncao(); // escreve "olá"
 
 ## Isto
 
-Dentro de cada instância de método existe a palavra `isto` que representa a relevância da instância. Ela é auto declarativa.
+Dentro de cada instância de método existe a palavra `isto` que representa a instância propriamente dita. Ela é auto declarativa.
 
 ```js
 classe Teste {
@@ -78,7 +78,7 @@ teste.testeFuncao();
 
 ## Construtor
 
-Construtor é um método padrão que é automaticamente chamdo ao instanciar a classe.
+Construtor é um método padrão que é automaticamente chamado ao instanciar a classe.
 
 ```js
 classe Teste {
@@ -92,7 +92,7 @@ var teste = Teste(); // escreve "começou"
 
 ## Herança
 
-Em egua é possível criar uma classe filho a partir de uma classe pai, mantendo as suas características iniciais e permitindo a inclusão de novas categorias.
+Em Egua é possível criar uma classe filho a partir de uma classe pai, mantendo as suas características iniciais e permitindo a inclusão de novas categorias.
 
 ```js
 classe Animal {}

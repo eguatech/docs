@@ -2,21 +2,21 @@
 
 ## Ordenar
 
-O Egua fornece a função ordenar() para realizar a ordenação dos valores em ordem crescente. Está função só aceita vetores.
+O Egua fornece a função `ordenar()` para realizar a ordenação dos valores em ordem crescente. Está função só aceita vetores.
 
 ```js
-//Vetor de strings
+// Vetor de strings
 var vetorNomes = ["Lucas", "Heictor", "Julio", "Brennus", "Arleson"];
-//Vetor de números
+// Vetor de números
 var vetorNumeros = [1, 2, 6, 7, 3, 4];
 
 vetorNomes = ordenar(vetorNomes);
 escreva(vetorNomes);
-//saída: Arleson,Brennus,Heictor,Julio,Lucas
+// saída: Arleson,Brennus,Heictor,Julio,Lucas
 
 vetorNumeros = ordenar(vetorNumeros);
 escreva(vetorNumeros);
-//saída: 1,2,3,4,6,7
+// saída: 1,2,3,4,6,7
 ```
 
 ## Texto

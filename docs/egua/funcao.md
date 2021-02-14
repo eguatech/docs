@@ -1,10 +1,10 @@
 # Funções
 
-As funções do Egua vêm em dois tipo - funções padrão e funções anonimas.
+As funções do Egua vêm em dois tipos: funções padrão e funções anônimas.
 
 ## Função padrão
 
-As funções padrões podem ser declaradas usando a palavra-chave 'funcao', um nome de função, uma lista de parâmetros entre colchete e depois um bloco para o corpo da função.
+As funções padrão podem ser declaradas usando a palavra-chave `funcao`, seguida de um nome de função, uma lista de parâmetros dentro de parênteses, sendo cada elemento separado por vírgula (argumentos) e por fim um bloco para o corpo da função, dentro de chaves:
 
 ```js
 funcao principal() {
@@ -18,12 +18,16 @@ As funções padrão são declaradas como variáveis e também vinculadas ao esc
 
 ## Função anônima
 
-Permite a criação de funções que não tem o nome especificado. 
+Permite a criação de funções que não têm o nome especificado. São usadas normalmente como variáveis, em outras funções que peçam como argumento outra função.
+
+Um exemplo disso é a função `mapear()`, função global da linguagem Egua. O primeiro parâmetro é um vetor de números, e o segundo parâmetro é uma função que `mapear()` chama para cada elemento do vetor.
 
 ```js
-var principal = funcao() {
-  escreva("sim!");
+var funcaoParaMapear = funcao(a) { 
+  retorna a * 2; 
 };
+
+escreva(mapear([5, 3], funcaoParaMapear));
 ```
 
 ## Chamada de função
@@ -35,8 +39,12 @@ funcao principal() {
   escreva("sim!");
 }
 
+var multiplicacaoPorDois = funcao(a) { 
+  retorna a * 2; 
+};
+
 principal();
-principal(1); // parâmetro único
+multiplicacaoPorDois(1); // parâmetro único
 ```
 
 ## Retorno
@@ -48,17 +56,17 @@ funcao principal() {
   retorna 1;
 }
 
-var dado = principal(); // Dado se torna igual ao valor 'principal'
-escreva(dado); // Saída 1
+var dado = principal(); // `dado` se torna igual ao valor retornado por `principal()`
+escreva(dado); // Saída :1
 ```
 
 ```js
 funcao principal() {
   escreva("a"); // saída a
   retorna;
-  escreva("b"); // não funciona
+  escreva("b"); // nunca executa, pois `retorna` finaliza a execução da função, quebrando seu fluxo na linha em que é executada.
 }
 
-var dado = principal(); // Dados se tornam iguais a nulos, devido a nada retornado
+var dado = principal(); // `dado` recebe o valor `nulo`, devido a nada ter sido retornado.
 escreva(dado); // Saída nula
 ```

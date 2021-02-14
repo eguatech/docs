@@ -1,25 +1,25 @@
 # Operadores
 
-A maioria dos operadores vistos nas linguagens de programação também são vistos no Egua, incluindo operadores bit a bit, matemáticos e outros, ordenados em uma hierarquia de prioridade.
+A maioria dos operadores vistos nas linguagens de programação também são vistos na Egua, incluindo operadores bit a bit, matemáticos e outros, ordenados em uma hierarquia de prioridade.
 
-- `**` - Expoente.
-- `*` - Multiplicação.
-- `/` - Divisão.
-- `+` - Adição.
-- `-` - Subtração.
-- `%` - Resto.
-- `<<` - Deslocamento bit a bit à esquerda.
-- `>>` - Deslocamento bit a bit à direita.
-- `&` - e bit a bit.
-- `^` - Ou exclusivo bit a bit.
-- `|` - Ou bit a bit.
-- `>` - Maior que.
-- `<` - Menor que.
-- `==` - Igual a.
-- `!=` - Diferente de.
-- `em` - em.
-- `e` - e.
-- `ou` - ou.
+- `**` - Exponenciação;
+- `*` - Multiplicação;
+- `/` - Divisão;
+- `+` - Adição;
+- `-` - Subtração;
+- `%` - Resto da divisão (Módulo);
+- `<<` - Deslocamento bit a bit à esquerda;
+- `>>` - Deslocamento bit a bit à direita;
+- `&` - e bit a bit;
+- `^` - Ou exclusivo bit a bit;
+- `|` - Ou bit a bit;
+- `>` - Maior que;
+- `<` - Menor que;
+- `==` - Igual a;
+- `!=` - Diferente de;
+- `em` - em;
+- `e` - e lógico;
+- `ou` - ou lógico;
 
 ### Prioridade dos operadores
 
