@@ -3,9 +3,9 @@
 ## Textos
 * textos são dadas com aspas duplas " "
 * A concatenação é feita com +
-* Nenhuma variável tipada é necessária para atribuir uma string a ela
+* Nenhuma variável tipada é necessária para atribuir uma variável de texto a ela
 
-Um exemplo, usando uma estrutura de string simples:
+Um exemplo, usando uma estrutura de variável de texto simples:
 
 ```javascript
 x = "Olá Mundo"
@@ -18,12 +18,12 @@ Programa em execução:
 `Olá Mundo, ou, Olá Egua`
 
 ## Matemática
-* O Egua aceita operações básicas +, -, / e \*
+* A Egua aceita operações básicas +, -, / e \*
 * O expoente é dado com \*\* 
 * O módulo é dado por %
 
 > CUIDADO!   
-> A aritmética de eguap é linear da esquerda para a direita, portanto, não usa as regras de prioridade matemática
+> A aritmética de EguaP é linear da esquerda para a direita, portanto, não usa as regras de prioridade matemática.
 
 * Parênteses não permite operação matemática.
 
@@ -45,7 +45,7 @@ Programa em execução:
 
 ## Condicionais
 * Todos os condicionais devem terminar com fim, seja apenas o se ou o se e contrario
-* Operadores lógicos são &lt;,&gt;, &lt;=,&gt; = e ==
+* Operadores lógicos são &lt;, &gt;, &lt;=, &gt;, = e ==
 
 ```javascript
 y = 6

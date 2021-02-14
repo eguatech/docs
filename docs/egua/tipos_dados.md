@@ -13,7 +13,7 @@ escreva(texto[-1]); // c
 
 ## Números
 
-Números são inteiros ou flutuantes.
+Números são inteiros ou de ponto flutuante.
 
 ```js
 var numeroInteiro = 3;
@@ -23,7 +23,7 @@ var numeroFlutuante = 8.5;
 
 ## Vetores
 
-Vetores são dados por `[]` e seus elementos são separados por `,`.
+Vetores são declarados com `[]` e seus elementos são separados por `,`.
 
 ```js
 var vetor = [1, "2"];
@@ -47,7 +47,7 @@ escreva(vetor); // retorna [1, 2, nulo, 3]
 
 ## Dicionários
 
-Dicionário funciona com uma chave de identificação.
+Dicionários funcionam com uma chave de identificação, que é única. Não existe dois elementos distintos em um dicionário com a mesma chave.
 
 ```js
 {};
@@ -72,7 +72,7 @@ var variavelNula = nulo; // também pode ser atribuído explicitamente o valor "
 
 ## Booleanos
 
-Estrutura booleana
+Estrutura booleana.
 
 ```js
 var variavel1 = verdadeiro;
