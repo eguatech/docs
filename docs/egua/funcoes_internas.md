@@ -57,16 +57,17 @@ O Egua fornece a função `ordenar()` para realizar a ordenação dos valores em
 ```js
 // Vetor de strings
 var vetorNomes = ["Lucas", "Heictor", "Julio", "Brennus", "Arleson"];
+
 // Vetor de números
 var vetorNumeros = [1, 2, 6, 7, 3, 4];
 
 vetorNomes = ordenar(vetorNomes);
 escreva(vetorNomes);
-// Saída: Arleson,Brennus,Heictor,Julio,Lucas
+// Saída: Arleson, Brennus, Heictor, Julio, Lucas
 
 vetorNumeros = ordenar(vetorNumeros);
 escreva(vetorNumeros);
-// Saída: 1,2,3,4,6,7
+// Saída: 1, 2, 3, 4, 6, 7
 ```
 
 ## Real
