@@ -43,6 +43,7 @@ module.exports = {
                 'trigonometria',
                 'cinematica',
                 'controle',
+                'numerico',
                 'CONTRIBUTING'
             ],
 
