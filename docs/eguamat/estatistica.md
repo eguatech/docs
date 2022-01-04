@@ -158,7 +158,7 @@ Calcula o coeficiente de correlação de pearson para duas matrizes.
 ```
 coefcorr(array1, array2)
 ```
-Exemplo:
+Exemplos:
 ```
 entrada: a = pale(4,20)
 saída: 100,120.17,139.24,159.66
