@@ -28,5 +28,6 @@ jobs:
         username: ${{ secrets.USUARIO }}
         password: ${{ secrets.SENHA }}
         run: |
+          sleep 180
           cd public_html && rm -rf docs/
           git clone -b hostgator --single-branch https://github.com/eguatech/docs.git

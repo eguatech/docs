@@ -10,7 +10,6 @@ module.exports = {
             { text: "Introdução", link: '/introducao/'},
             { text: "Egua", link: '/egua/' },
             { text: "EguaMat", link: '/eguamat/' },
-            { text: "Módulos", link: '/modulos/' },
             { text: "GitHub", link: 'https://github.com/eguatech' }
         ],
 
@@ -26,12 +25,6 @@ module.exports = {
                 'funcoes_internas',
                 'importar',
                 'CONTRIBUTING'
-            ],
-
-            '/modulos/': [
-                '',
-                'eguap',
-                'eguac'
             ],
 
             '/eguamat/': [
