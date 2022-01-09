@@ -53,8 +53,7 @@ module.exports = {
                 'IDEgua',
                 'modulos',
                 'contribuindo',
-                'CONTRIBUTING',
-                'apoio'
+                'CONTRIBUTING'
             ]
 
         },
