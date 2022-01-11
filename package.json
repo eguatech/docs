@@ -5,6 +5,7 @@
   },
   "devDependencies": {
     "vuepress": "^1.4.1",
-    "vuepress-plugin-mathjax": "^1.2.8"
+    "node-forge": ">=1.0.0",
+    "egua": "^1.2.0"
   }
 }
