@@ -4,8 +4,12 @@
     "docs:build": "vuepress build docs"
   },
   "devDependencies": {
+    "egua": "^1.2.0",
     "vuepress": "^1.4.1",
     "node-forge": ">=1.0.0",
-    "egua": "^1.2.0"
+    "nth-check": ">=2.0.1",
+    "postcss": ">=8.2.13",
+    "highlight.js": ">=10.4.1",
+    "glob-parent": ">=5.1.2"
   }
 }
