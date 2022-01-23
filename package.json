@@ -10,6 +10,8 @@
     "nth-check": ">=2.0.1",
     "postcss": ">=8.2.13",
     "highlight.js": ">=10.4.1",
-    "glob-parent": ">=5.1.2"
+    "glob-parent": ">=5.1.2",
+    "nanoid": ">=3.1.31",
+    "markdown-it": ">=12.3.2"
   }
 }
