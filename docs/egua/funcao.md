@@ -4,10 +4,10 @@ As funções do Egua vêm em dois tipos: funções padrão e funções anônimas
 
 ## Função padrão
 
-As funções padrão podem ser declaradas usando a palavra-chave `funcao`, seguida de um nome de função, uma lista de parâmetros dentro de parênteses, sendo cada elemento separado por vírgula (argumentos) e por fim um bloco para o corpo da função, dentro de chaves:
+As funções padrão podem ser declaradas usando a palavra-chave `função`, seguida de um nome de função, uma lista de parâmetros dentro de parênteses, sendo cada elemento separado por vírgula (argumentos) e por fim um bloco para o corpo da função, dentro de chaves:
 
 ```js
-funcao principal() {
+função principal() {
   escreva("sim!");
 }
 
@@ -23,11 +23,11 @@ Permite a criação de funções que não têm o nome especificado. São usadas 
 Um exemplo disso é a função `mapear()`, função global da linguagem Egua. O primeiro parâmetro é um vetor de números, e o segundo parâmetro é uma função que `mapear()` chama para cada elemento do vetor.
 
 ```js
-var funcaoParaMapear = funcao(a) { 
+var funçãoParaMapear = função(a) { 
   retorna a * 2; 
 };
 
-escreva(mapear([5, 3], funcaoParaMapear));
+escreva(mapear([5, 3], funçãoParaMapear));
 ```
 
 ## Chamada de função
@@ -35,11 +35,11 @@ escreva(mapear([5, 3], funcaoParaMapear));
 Uma função que retorna dados como resultado. 
 
 ```js
-funcao principal() {
+função principal() {
   escreva("sim!");
 }
 
-var multiplicacaoPorDois = funcao(a) { 
+var multiplicacaoPorDois = função(a) { 
   retorna a * 2; 
 };
 
@@ -52,7 +52,7 @@ multiplicacaoPorDois(1); // parâmetro único
 Uma função retorna valores do dado processado.
 
 ```js
-funcao principal() {
+função principal() {
   retorna 1;
 }
 
@@ -61,7 +61,7 @@ escreva(dado); // Saída :1
 ```
 
 ```js
-funcao principal() {
+função principal() {
   escreva("a"); // saída a
   retorna;
   escreva("b"); // nunca executa, pois `retorna` finaliza a execução da função, quebrando seu fluxo na linha em que é executada.

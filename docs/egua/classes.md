@@ -27,7 +27,7 @@ Métodos são como funções de uma classe, porém são criados sem a palavra ch
 
 ```js
 classe Teste {
-  testeFuncao() {
+  testeFunção() {
     escreva("olá");
   }
 }
@@ -37,13 +37,13 @@ Esses métodos podem ser acessados pela instância com `.`.
 
 ```js
 classe Teste {
-  testeFuncao() {
+  testeFunção() {
     escreva("olá");
   }
 }
 
 var teste = Teste();
-teste.testeFuncao(); // escreve "olá"
+teste.testeFunção(); // escreve "olá"
 ```
 
 ## Isto
@@ -66,14 +66,14 @@ Um estado, que nada mais é que uma variável dentro de um método, é atriubuid
 
 ```js
 classe Teste {
-  testeFuncao() {
+  testeFunção() {
     isto.a = 100;
     escreva(isto.a); // escreve "100"
   }
 }
 
 var teste = Teste();
-teste.testeFuncao();
+teste.testeFunção();
 ```
 
 ## Construtor

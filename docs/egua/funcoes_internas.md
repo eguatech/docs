@@ -42,7 +42,7 @@ Percorre um vetor executando uma função para cada item desse mesmo vetor.
 ```js
 var array = [1, 2, 3];
 
-var fn = funcao(valor){
+var fn = função(valor){
   retorna valor * 2;
 };
 
