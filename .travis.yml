@@ -2,9 +2,9 @@ language: node_js
 node_js:
   - lts/*
 install:
-  - yarn install
+  - yarn install # npm ci
 script:
-  - yarn docs:build
+  - yarn docs:build # npm run docs:build
 deploy:
   provider: pages
   target_branch: hostgator
