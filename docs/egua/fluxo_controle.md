@@ -46,8 +46,8 @@ A Egua inclui várias palavras-chave que ajudam no fluxo de controle.
 - `em` - Retorna verdadeiro se o valor da esquerda estiver incluído no valor da direita.
 
 ```js
-verdadeiro e falso; // Verdade
-verdadeiro e falso; // Verdade
+verdadeiro e verdadeiro; // Verdade
+verdadeiro e falso; // Falso
 
 falso ou falso; // Falso
 verdadeiro ou falso; // Verdade
