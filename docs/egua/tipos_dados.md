@@ -50,13 +50,15 @@ escreva(vetor); // retorna [1, 2, nulo, 3]
 Dicionários funcionam com uma chave de identificação, que é única. Não existe dois elementos distintos em um dicionário com a mesma chave.
 
 ```js
-{};
-{'a': 'b'};
+var dicionario = {}; // declarando dicionario vazio
+dicionario = {'a': 'b'}; // atribuindo um dicionario à variável
+escreva(dicionario['a']); // retorna 'b'
 
-{'a': 'b'}['a']; // retorna 'b'
-
-{}['a'] = 'b'; // retorna novo dicionário {'a': 'b'}
-{'a': 1}['a'] = 2; // retorna novo dicionário {'a': 2}
+var dicionario = {};
+dicionario['a'] = 'b'; // retorna novo dicionário {'a': 'b'}
+var dicionario = {'a': 1};
+dicionario['a'] = 2; // retorna novo dicionário {'a': 2}
+escreva(dicionario['a']); 
 ```
 
 ## Nulo
