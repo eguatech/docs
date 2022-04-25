@@ -57,6 +57,7 @@ escreva(dicionario['a']); // retorna 'b'
 var dicionario = {};
 dicionario['a'] = 'b'; // retorna novo dicionário {'a': 'b'}
 var dicionario = {'a': 1};
+
 dicionario['a'] = 2; // retorna novo dicionário {'a': 2}
 escreva(dicionario['a']); 
 ```
