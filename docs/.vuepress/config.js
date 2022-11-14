@@ -22,8 +22,7 @@ module.exports = {
                 'funcao',
                 'classes',
                 'funcoes_internas',
-                'importar',
-                'CONTRIBUTING'
+                'importar'
             ],
 
             '/eguamat/': [
@@ -36,8 +35,7 @@ module.exports = {
                 'cinematica',
                 'controle',
                 'matrizes',
-                'numerico',
-                'CONTRIBUTING'
+                'numerico'
             ]
         },
         logo: "/images/logo.png"
