@@ -1,8 +1,8 @@
 ---
 home: true
 heroImage: /images/logo.png
-actionText: Introdução →
-actionLink: /introducao/
+actionText: Começar →
+actionLink: /egua/
 features:
 - title: Disponível na web
   details: Linguagem leve para ser executada no navegador.

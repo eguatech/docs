@@ -7,7 +7,6 @@ module.exports = {
     themeConfig: {
         nav: [
             { text: "Home", link: '/' },
-            { text: "Introdução", link: '/introducao/'},
             { text: "Egua", link: '/egua/' },
             { text: "EguaMat", link: '/eguamat/' },
             { text: "GitHub", link: 'https://github.com/eguatech' }
@@ -39,16 +38,7 @@ module.exports = {
                 'matrizes',
                 'numerico',
                 'CONTRIBUTING'
-            ],
-
-            '/introducao/':[
-                '',
-                'IDEgua',
-                'modulos',
-                'contribuindo',
-                'CONTRIBUTING'
             ]
-
         },
         logo: "/images/logo.png"
     },
