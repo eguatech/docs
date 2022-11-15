@@ -15,8 +15,8 @@ module.exports = {
         sidebar: {
             '/egua/': [
                 '',
-                'tipos_dados',
                 'variaveis',
+                'tipos_dados',
                 'operadores',
                 'fluxo_controle',
                 'funcao',
