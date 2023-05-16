@@ -1,7 +1,7 @@
 ---
 home: true
 heroImage: /images/logo.png
-actionText: Começar →
+actionText: Aprender →
 actionLink: /egua/
 features:
 - title: Disponível na web

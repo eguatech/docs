@@ -1,13 +1,10 @@
 # Importar
 
-É possível importar arquivos e bibliotecas padrão em Egua com a declaração `importar`.
+É possível importar bibliotecas em linguagem égua com a declaração `importar`.
 
 ```js
 // importando biblioteca padrão
-var eguamat = importar("eguamat");
-
-// importanto arquivo .egua
-var arquivo = importar("./teste.egua");
+var matematica = importar("matematica");
 ```
 
 > Note que não é possível importar arquivos externos na interface web.
