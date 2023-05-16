@@ -1,6 +1,6 @@
 language: node_js
 node_js:
-  - 16
+  - 16 # use nodejs v16 LTS
 install:
   - npm ci
 script:
