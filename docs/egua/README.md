@@ -25,7 +25,7 @@ Em Égua, o famoso "Olá, Mundo!" pode ser exibido com um simples trecho de cód
 escreva("Olá, Mundo!");
 ```
 
-Nesse código, utilizamos a função `escreva()` para exibir a mensagem "Olá, Mundo!". A função `escreva()` é usada para imprimir informações na saída padrão do programa.
+Nesse código, utilizamos a função `escreva()` para exibir a mensagem "Olá, Mundo!".
 
 Ao executar esse código, você verá a frase "Olá, Mundo!" sendo exibida na tela. Esse é um exemplo básico que demonstra como iniciar a programação em Égua. A partir daí, você pode prosseguir para a aprendizagem de conceitos mais avançados e começar a desenvolver programas mais completos.
 
