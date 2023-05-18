@@ -22,7 +22,7 @@ A linguagem Egua pode ser executada de maneira online via navegador.
 Em Égua, o famoso "Olá, Mundo!" pode ser exibido com um simples trecho de código. Veja abaixo:
 
 ```js
-escreva("Olá, Mundo!")
+escreva("Olá, Mundo!");
 ```
 
 Nesse código, utilizamos a função `escreva()` para exibir a mensagem "Olá, Mundo!". A função `escreva()` é usada para imprimir informações na saída padrão do programa.
@@ -37,7 +37,7 @@ Comentários são trechos de texto que servem para adicionar explicações ou no
 Exemplo:
 ```js
 // Este é um comentário de linha única
-var idade = 10  // Outro comentário de linha única
+var idade = 10; // Outro comentário de linha única
 ```
 
 Os comentários são úteis para tornar o código mais compreensível, documentar funcionalidades e facilitar a colaboração entre desenvolvedores. Eles não são executados e não afetam o funcionamento do programa.
