@@ -1,40 +1,33 @@
 # Classes
 
-A linguagem Egua suporta orientação a objetos nativamente, seja no ambiente web ou no ambiente local.
+A linguagem Egua suporta a orientação a objetos de forma nativa, permitindo a criação e manipulação de classes, objetos, métodos e herança.
 
 ## Criando uma classe
 
-Uma classe é criada com `classe`
+Uma classe é uma estrutura que define as características e comportamentos de um objeto. Em Egua, você pode criar uma classe usando a palavra-chave `classe` seguida pelo nome da classe.
 
+Exemplo:
 ```js
 classe Teste {}
 ```
 
 ## Instanciando uma classe
 
-A instância de uma classe é criada a partir da chamada de uma classe, ou seja, criando um objeto.
+A instância de uma classe é criada através da chamada da classe, criando assim um objeto. Em Egua, para criar uma instância de uma classe, basta chamar o nome da classe seguido de parênteses.
 
+Exemplo:
 ```js
 classe Teste {}
 
 var teste = Teste();
-escreva(teste); // escreve "<Teste instância>"
+escreva(teste); // Saída: "<Teste instância>"
 ```
 
 ## Métodos
 
-Métodos são como funções de uma classe, porém são criados sem a palavra chave de função.
+Os métodos são funções associadas a uma classe que definem os comportamentos do objeto. Em Egua, você pode definir métodos dentro de uma classe sem a palavra-chave `função`. Os métodos podem ser acessados através da instância do objeto usando o operador `.`.
 
-```js
-classe Teste {
-  testeFunção() {
-    escreva("olá");
-  }
-}
-```
-
-Esses métodos podem ser acessados pela instância com `.`.
-
+Exemplo:
 ```js
 classe Teste {
   testeFunção() {
@@ -43,13 +36,14 @@ classe Teste {
 }
 
 var teste = Teste();
-teste.testeFunção(); // escreve "olá"
+teste.testeFunção(); // Saída: "olá"
 ```
 
-## Isto
+## Referência à instância (isto)
 
-Dentro de cada instância de método existe a palavra `isto` que representa a instância propriamente dita. Ela é auto declarativa.
+Dentro de cada método de instância, você pode usar a palavra-chave `isto` para se referir à instância atual do objeto. Ela é uma referência auto-declarativa que permite acessar o estado e os métodos da instância.
 
+Exemplo:
 ```js
 classe Teste {
   construtor() {
@@ -57,18 +51,19 @@ classe Teste {
   }
 }
 
-var teste = Teste(); // escreve "<Teste instância>"
+var teste = Teste(); // Saída: "<Teste instância>"
 ```
 
-## Estado
+## Estado do objeto
 
-Um estado, que nada mais é que uma variável dentro de um método, é atriubuida a ele com `isto`.
+O estado de um objeto se refere às variáveis que são atribuídas a ele. Em Egua, você pode definir o estado de um objeto usando a palavra-chave `isto` dentro de um método. Isso permite que cada instância do objeto tenha seu próprio estado.
 
+Exemplo:
 ```js
 classe Teste {
   testeFunção() {
     isto.a = 100;
-    escreva(isto.a); // escreve "100"
+    escreva(isto.a); // Saída: "100"
   }
 }
 
@@ -78,8 +73,9 @@ teste.testeFunção();
 
 ## Construtor
 
-Construtor é um método padrão que é automaticamente chamado ao instanciar a classe.
+O construtor é um método especial que é automaticamente chamado ao instanciar a classe. Ele é usado para inicializar o estado do objeto ou executar qualquer código de configuração necessário.
 
+Exemplo:
 ```js
 classe Teste {
   construtor() {
@@ -87,19 +83,19 @@ classe Teste {
   }
 }
 
-var teste = Teste(); // escreve "começou"
+var teste = Teste(); // Saída: "começou"
 ```
 
 ## Herança
 
-Em Egua é possível criar uma classe filho a partir de uma classe pai, mantendo as suas características iniciais e permitindo a inclusão de novas categorias.
+Em Egua, é possível criar uma classe filha a partir de uma classe pai, herdando seus atributos e métodos. Isso permite reutilizar código existente e adicionar novos atributos e métodos específicos da classe filha.
 
+Exemplo:
 ```js
 classe Animal {}
 
 classe Cachorro herda Animal {}
 ```
-
 
 ```js
 classe Animal {
@@ -112,11 +108,14 @@ classe Cachorro herda Animal {}
 
 var thor = Cachorro();
 
-thor.corre();
+thor.corre(); // Saída: "correndo"
 ```
 
-É possível também fazer a chamada de um método pertencente a uma classe pai na classe herdada, basta usar a declaração `super`.
+Também é possível ch
 
+amar um método pertencente à classe pai na classe filha usando a palavra-chave `super`. Isso permite acessar e executar o código da classe pai.
+
+Exemplo:
 ```js
 classe A {
   data(data) {
@@ -132,3 +131,5 @@ classe B herda A {
 
 var a = B("13/12/1981");
 ```
+
+Neste exemplo, a classe `B` herda da classe `A` e chama o método `data` da classe pai usando `super.data(data)` no construtor da classe `B`. Isso permite reutilizar o código existente na classe pai dentro da classe filha.

@@ -7,7 +7,8 @@ module.exports = {
     themeConfig: {
         nav: [
             { text: "Home", link: '/' },
-            { text: "Egua", link: '/egua/' },
+            { text: "Égua", link: '/egua/' },
+            { text: "Lógica", link: '/logica/' },
             { text: "GitHub", link: 'https://github.com/eguatech' }
         ],
 
@@ -19,9 +20,12 @@ module.exports = {
                 'operadores',
                 'fluxo_controle',
                 'funcao',
-                'classes',
-                'funcoes_internas',
-                'importar'
+                'funcoes_integradas',
+                'bibliotecas',
+                'classes'
+            ],
+            '/logica/': [
+                ''
             ]
         },
         logo: "/images/logo.png"

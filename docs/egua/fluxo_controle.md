@@ -1,74 +1,74 @@
-# Fluxo de controle
+# Fluxo de Controle
 
-Egua vem equipada com uma gama completa de opções de controle de fluxo.
+A programação envolve o controle de fluxo, que determina a ordem em que as instruções são executadas em um programa. A linguagem de programação égua oferece uma variedade de opções de controle de fluxo que permitem tomar decisões, repetir a execução de blocos de código e lidar com erros.
 
-## Valores reais.
+## Valores booleanos
 
-Integrado ao fluxo de controle de todas as linguagens são os valores reais e como os valores são comparados e avaliados, uma vez que as opções de fluxo de controle, como uma instrução `se`, só será executada se a instrução for avaliada como verdade, por exemplo `se(verdade){}` enquanto só é executado devido ser uma instrução verdadeira.
+No controle de fluxo de todas as linguagens de programação, os valores booleanos desempenham um papel importante. Em égua, os valores booleanos são representados pelos termos "verdadeiro" e "falso". O controle de fluxo, como a instrução `se`, será executado somente se a condição for avaliada como verdadeira. Por exemplo, `se(verdadeiro){}` será executado porque a condição é verdadeira, enquanto `se(falso){}` não será executado porque a condição é falsa.
 
-## Comparação de igualdade.
+## Comparação de igualdade
 
-Para que dois objetos sejam comparados como verdade, eles devem ser do mesmo tipo e do mesmo valor, da mesma forma que outras linguagens fortemente tipadas, como o Python. Considere os seguintes exemplos:
+Para comparar se dois objetos são iguais em Egua, é necessário que sejam do mesmo tipo e tenham o mesmo valor. Essa comparação é avaliada como "verdadeira" se os valores forem iguais, e "falsa" caso contrário. Veja alguns exemplos:
 
 ```js
-1 == 1; // Verdade
-"1" == "1"; // Verdade
-nulo == nulo; // Verdade
+1 == 1; // Verdadeiro
+"1" == "1"; // Verdadeiro
+nulo == nulo; // Verdadeiro
 
-"1" == "2"; // Falsa
-1 == 2; // Falsa
-1 == "1"; // Falsa
+"1" == "2"; // Falso
+1 == 2; // Falso
+1 == "1"; // Falso
 ```
 
-A comparação é avaliada como "falsa" ou "verdadeira", dependendo somentos dos valores serem iguais.
+A comparação é baseada apenas na igualdade dos valores.
 
-## Avaliação da verdade
+## Avaliação da veracidade
 
-Todos os tipos de dados, exceto "nulos" e "falsos", são avaliados com sinceridade.
+Em égua, todos os tipos de dados, exceto "nulo" e "falso", são avaliados como verdadeiros. Veja alguns exemplos:
 
 ```js
-{} // Verdade
-1 // Verdade
-verdadeiro // Verdade
-[] // Verdade
+{}; // Verdadeiro
+1; // Verdadeiro
+verdadeiro; // Verdadeiro
+[]; // Verdadeiro
 
-1 == '1' // Falso devido a avaliação de falso
-nulo // Falso
-falso // Falso
+1 == '1'; // Falso devido à avaliação de falso
+nulo; // Falso
+falso; // Falso
 ```
 
-## Palavras chave de controle
+## Palavras-chave de controle
 
-A Egua inclui várias palavras-chave que ajudam no fluxo de controle.
+A linguagem égua possui várias palavras-chave que auxiliam no controle de fluxo:
 
-- `e` - Retorna verdadeiro se ambos os valores são verdadeiros.
-- `ou` - Retorna verdadeiro se um dos valores for verdadeiro.
-- `em` - Retorna verdadeiro se o valor da esquerda estiver incluído no valor da direita.
+- `e` - Retorna verdadeiro se ambos os valores forem verdadeiros.
+- `ou` - Retorna verdadeiro se pelo menos um dos valores for verdadeiro.
+- `em` - Retorna verdadeiro se o valor da esquerda estiver contido no valor da direita.
 
 ```js
-verdadeiro e verdadeiro; // Verdade
+verdadeiro e verdadeiro; // Verdadeiro
 verdadeiro e falso; // Falso
 
 falso ou falso; // Falso
-verdadeiro ou falso; // Verdade
+verdadeiro ou falso; // Verdadeiro
 
 'a' em ['b']; // Falso
-'b' em ['b']; // Verdade
-'c' em 'abc'; // Verdade
+'b' em ['b']; // Verdadeiro
+'c' em 'abc'; // Verdadeiro
 'chave' em {'chave': 'valor'};
 ```
 
-## Se - Se não se - Se não 
+## Se - Senão se - Senão
 
-A Egua fornece instruções `se`, `se não se` e `se não` para um fluxo de controle eficiente. Instruções `se não se` e `se não` devem ser anexadas a uma instrução `se` e são opicionais. Você pode fornecer apenas mais uma declaração. Cada declaração é seguida por um corpo que é executado de acordo com a condição da declaração. O corpo de uma instrução `se` é executado se a condição for avaliada como verdadeira, caso contrário, quaisquer instruções `se não se` anexadas serão avaliadas na ordem fornecida e se qualquer uma dessas condições avaliadas como verdadeira, seus corpos serão executados. Apenas um bloco `se não se` pode ser executado. Se a instrução `se` não for executada e nenhuma instrução `se não se` executada, o bloco `se não` será executado, se fornecido.
+A linguagem Egua fornece as instruções `se`, `senão se` e `senão` para controle de fluxo condicional eficiente. As instruções `senão se` e `senão` são opcionais e devem ser anexadas à instrução `se`. Você pode ter apenas uma instrução `senão se` adicional. Cada instrução é seguida por um bloco de código que será executado com base na condição da instrução. O bloco de código de uma instrução `se` é executado se a condição for avaliada como verdadeira. Caso contrário, as instruções `senão se` serão avaliadas em ordem, e se qualquer uma das condições for verdadeira, o bloco de código correspondente será executado. Somente um bloco `senão se` pode ser executado. Se a instrução `se` não for executada e nenhuma instrução `senão se` for executada, o bloco `senão` será executado, se fornecido.
 
 ```js
-// Escreva "sim"
-se (verdade) {
+// Exemplo: Imprime "sim"
+se (verdadeiro) {
   escreva('sim');
 }
 
-// Escreva "correspondente 2"
+// Exemplo: Imprime "correspondente 2"
 var a = 2;
 se (a == 1) {
   escreva('correspondente 1');
@@ -78,7 +78,7 @@ se (a == 1) {
   escreva('sem valor correspondente');
 }
 
-// Escreva "sem comparação"
+// Exemplo: Imprime "sem comparação"
 var a = 3;
 se (a == 1) {
   escreva('correspondente 1');
@@ -91,58 +91,58 @@ se (a == 1) {
 
 ## Enquanto
 
-As declarações `enquanto` da Egua operam de maneira semelhante à maioria das linguagens. O laço de repetição `enquanto` leva uma condição e um corpo, com o corpo continuando a executar enquanto a condição é avaliada como verdadeira. A verificação da verdade é feita antes de cada vez que o corpo é executado, o que significa que nenhuma execução é garantida.
+A instrução `enquanto` em Egua é usada para criar um loop que executa repetidamente um bloco de código enquanto uma condição específica for avaliada como verdadeira. Antes de cada execução do bloco de código, a condição é verificada para determinar se o bloco deve continuar a ser executado. Se a condição for falsa no início, o bloco nunca será executado.
 
 ```js
-// Laço de repetição infinito
-enquanto (verdade) {
+// Exemplo: Loop infinito
+enquanto (verdadeiro) {
   escreva("sim");
 }
 ```
 
 ## Para
 
-Para declarações dentro da Egua, usamos 4 argumentos: um inicializador, uma condição, um passo e um corpo. Qualquer um pode ficar em branco. O inicializador é executado antes do laço de repetição 'para', a condição que decide se o corpo continua e executar, da mesma forma que um laço de repetição 'enquanto', que faz com que corpo seja executado e a etapa a ser executada após o corpo durante cada laço de repetição. A instrução 'para' obtém o inicializador, a condição e a etapa entre parênteses, separados por ponto e vírgula e, em seguida, uma instrução de bloco para o corpo.
+A instrução `para` é usada para criar um laço que executa um bloco de código um número específico de vezes. Ela possui quatro partes: um inicializador, uma condição, um passo e um corpo. Qualquer uma dessas partes pode ser deixada em branco. O inicializador é executado antes do laço `para`, a condição decide se o corpo deve ser executado, a passo é executada após cada execução do corpo e o corpo contém as instruções a serem repetidas. A instrução `para` é definida com o inicializador, a condição e a passo separados por ponto e vírgula, seguidos pelo bloco de código do corpo.
 
 ```js
-// Escreva os numeros de 0-4
-// Inicializador, condição, etapa
+// Exemplo: Imprime números de 0 a 4
+// Inicializador, condição, passo
 para (var i = 0; i < 5; i = i + 1) {
-  // corpo
+  // Corpo
   escreva(i);
 }
 
-// Inicializador e etapa emitida
-// Imprime infinitamente devido à condição ser sempre verdadeira
-para (; verdade; ) {
+// Exemplo: Inicializador e passo omitidos
+// Imprime infinitamente porque a condição é sempre verdadeira
+para (; verdadeiro; ) {
   escreva("sim");
 }
 ```
 
-## Fazer - enquanto
+## Faça - Enquanto
 
-Na Egua, a instrução 'fazer' e 'enquanto' atuam de maneira semelhante à maioria dos idiomas - a palavra-chave 'fazer' é declarada, seguida por um bloco para o corpo, uma palavra-chave 'enquanto' e, em seguida uma condição entre parênteses. Diferentemente das instruções 'enquanto', o teste da condição para decidir se continua a executar o corpo é feito após cade execução do corpo, o que significa que o corpo é garantido para executar pelo menos uma vez.
+A instrução `faça - enquanto` é usada para criar um laço que executa um bloco de código pelo menos uma vez e continua a executá-lo enquanto uma condição específica for avaliada como verdadeira. Primeiro, o bloco de código é executado e, em seguida, a condição é verificada. Se a condição for verdadeira, o bloco de código será executado novamente. Se a condição for falsa, o loop será encerrado.
 
 ```js
-// 'sim' é escrito uma vez
-fazer {
+// Exemplo: "sim" é escrito uma vez
+faça {
   escreva("sim");
-} enquanto (falso)
+} enquanto (falso);
 
-// Escreve números de 0-4
+// Exemplo: Imprime números de 0 a 4
 var i = 0;
-fazer {
+faça {
   escreva(i);
   i = i + 1;
-} enquanto (i < 5)
+} enquanto (i < 5);
 ```
 
-## Caso - escolha 
+## Escolha - Caso
 
-As instruções 'caso' e 'escolha' na Egua são uma maneira eficiente de encadear várias instruções 'se'. A sintaxe requer um valor (que é comparado a cada caso), ramificações de caso e uma ramificação padrão opcional. No início da 'escolha', o valor é avaliado e comparado ao valor de cada ramificação de 'caso' - se os valores corresponderem, o corpo do 'caso' relevante será executado e se nenhum 'caso' for executado, o corpo padrão será executado, se fornecido.
+As instruções `escolha` e `caso` são usadas para encadear várias condições e executar diferentes blocos de código com base em uma expressão de seleção. A expressão de seleção é avaliada e comparada aos valores de cada caso. Se houver uma correspondência, o bloco de código correspondente ao caso será executado. Se nenhum caso corresponder, o bloco de código padrão será executado, se fornecido.
 
 ```js
-// Escreva "correspondente à opção 2"
+// Exemplo: Imprime "correspondente à opção 2"
 escolha (1) {
   caso "1":
     escreva("correspondente à opção 1");
@@ -150,11 +150,11 @@ escolha (1) {
   caso 1:
     escreva("correspondente à opção 2");
 
-  padrao:
+  padrão:
     escreva("Sem opção correspondente");
 }
 
-// Escreva "Sem opção correspondente"
+// Exemplo: Imprime "Sem opção correspondente"
 escolha (2) {
   caso "1":
     escreva("correspondente à opção 1");
@@ -162,18 +162,17 @@ escolha (2) {
   caso 1:
     escreva("correspondente à opção 2");
 
-  padrao:
-    print("Sem opção correspondente");
+  padrão:
+    escreva("Sem opção correspondente");
 }
 ```
 
-## Tente - pegue  
+## Tente - Pegue - Finalmente
 
-No Egua, 'tente' e 'pegue' são usados para lidas com quaisquer erros que possam ocorrer durante a execução do código.
-Os bloco 'pegue' e 'finalmente' são opcionais. Primeiro, o bloco 'tente' é executado e se durante a execução ocorrer algum erro, se houver, o bloco 'pegue' será executado. O bloco 'tente' significa que, se ocorrer algum erro durante a execução, isso não interromperá o programa. Após a tentativa e, se fornecido, o bloco 'pegue' ser executado, ser fornecido, o bloco final é executado.
+A estrutura `tente - pegue - finalmente` é usada para lidar com exceções ou erros que podem ocorrer durante a execução do código. O bloco `pegue` e o bloco `finalmente` são opcionais. Primeiro, o bloco `tente` é executado e, se ocorrer algum erro durante a execução, ele será capturado e o bloco `pegue` será executado. O bloco `tente` garante que os erros não interrompam o programa. Após a tentativa e, se fornecido, a execução do bloco `pegue`, o bloco `finalmente` é executado.
 
 ```js
-// Escreve "sucesso" e "pronto"
+// Exemplo: Imprime "sucesso" e "pronto"
 tente {
   escreva("sucesso");
 } pegue {
@@ -182,9 +181,9 @@ tente {
   escreva("pronto");
 }
 
-// Escreve "captura" e "pronto"
+// Exemplo: Imprime "captura" e "pronto"
 tente {
-  // lança erro
+  // Lança um erro
   1 > "1";
 
   escreva("sucesso");
@@ -194,3 +193,5 @@ tente {
   escreva("pronto");
 }
 ```
+
+Essas são as principais instruções de controle de fluxo em Egua. Com o entendimento dessas instruções, você pode criar programas mais complexos e controlar o fluxo de execução de maneira eficiente.
