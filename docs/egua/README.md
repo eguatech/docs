@@ -30,8 +30,6 @@ Nesse código, utilizamos a função `escreva()` para exibir a mensagem "Olá, M
 Ao executar esse código, você verá a frase "Olá, Mundo!" sendo exibida na tela. Esse é um exemplo básico que demonstra como iniciar a programação em Égua. A partir daí, você pode prosseguir para a aprendizagem de conceitos mais avançados e começar a desenvolver programas mais completos.
 
 ## Comentários
-# Comentários em Python
-
 Comentários são trechos de texto que servem para adicionar explicações ou notas relevantes ao código. Eles são ignorados pelo interpretador durante a execução do programa.
 
 - Comentários de linha única: Iniciados com o caractere `//`, são utilizados para adicionar informações em uma única linha de código.
