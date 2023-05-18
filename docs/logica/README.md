@@ -3,6 +3,8 @@ description: Lógica de Programação
 ---
 
 # Lógica de Programação
+
+## Introdução
 A lógica de programação é uma forma de pensar e estruturar o raciocínio para resolver problemas de maneira lógica e eficiente. É uma habilidade essencial para quem deseja programar, pois envolve a capacidade de organizar instruções de forma sequencial, tomar decisões baseadas em condições e repetir tarefas usando loops.
 
 Em essência, a lógica de programação envolve a criação de algoritmos, que são sequências de passos ou instruções que descrevem como resolver um problema específico. Esses algoritmos devem ser claros, precisos e capazes de serem executados por um computador.
@@ -23,7 +25,7 @@ Ao desenvolver a lógica de programação, é importante ter um bom entendimento
 
 Dominar a lógica de programação é essencial para escrever programas eficientes e de qualidade. Com uma boa base em lógica, será mais fácil aprender e utilizar diferentes linguagens de programação, bem como resolver problemas complexos de maneira estruturada e eficiente.
 
-### Glossário
+## Glossário
 Aqui estão alguns termos comuns na programação explicados de forma simples para iniciantes:
 
 Algoritmo: Um algoritmo é uma sequência de passos organizados e lógicos que descrevem como resolver um problema. É como uma receita que indica quais ações devem ser tomadas em uma determinada ordem para se alcançar um resultado desejado.
