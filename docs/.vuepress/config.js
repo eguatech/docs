@@ -1,6 +1,6 @@
 module.exports = {
     head: [
-        ['link', { rel: 'icon', href: '/images/icone.png' }]
+        ['link', { rel: 'icon', href: '/images/logo_egua.svg' }]
     ],
     title: "Documentação | Linguagem Égua",
     description: "Programação simples e moderna em português",
