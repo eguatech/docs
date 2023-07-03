@@ -55,7 +55,8 @@ verdadeiro ou falso; // Verdadeiro
 'a' em ['b']; // Falso
 'b' em ['b']; // Verdadeiro
 'c' em 'abc'; // Verdadeiro
-'chave' em {'chave': 'valor'};
+'chave' em {'chave': 'valor'}; // Verdadeiro
+'valor' em {'chave': 'valor'}; // Falso
 ```
 
 ## Se - Senão se - Senão
