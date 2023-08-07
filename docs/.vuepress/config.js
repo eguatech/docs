@@ -9,7 +9,7 @@ module.exports = {
             { text: "Home", link: '/' },
             { text: "Égua", link: '/egua/' },
             { text: "Lógica", link: '/logica/' },
-            { text: "Programar", link: 'https://egua.tech/idegua' }
+            { text: "Programar", link: 'https://egua.dev/idegua' }
         ],
 
         sidebar: {
